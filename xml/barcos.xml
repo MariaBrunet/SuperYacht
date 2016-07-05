@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="alquilarX.xsl"?>
+<barcos>
+    <barco id="1">
+        <nom>Delfino 93'</nom>
+        <any>2014</any>
+        <port>Eivissa</port>
+        <especificacions>
+            <constructor>Benetti</constructor>
+            <metros>
+                <eslora>23.98m</eslora>
+                <maniga>7.03m</maniga>
+                <calat>2.05m</calat>
+            </metros>
+            <motor>16.000 l.</motor>
+            <velocitat>
+                <creuer>25 nudos</creuer>
+                <maxima>35 nudos</maxima>
+            </velocitat>
+            <numPassatgers>10</numPassatgers>
+            <numCamarots>7</numCamarots>
+            <tripulacio>3</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>150.000 €</estiu>
+            <resta>100.000 €</resta>
+        </preu>
+        <extres>
+            Una lancha a motor, dos motos de agua, esquís acuáticos y un donut hinchable.
+        </extres>
+        <descripcio>
+            Delfino 93' es el superyate más compacto de Benetti. Sus orígenes se encuentran en el exitoso intento de dar a los propietarios toda la excelencia de Benetti en tan sóolo 93 pies. El Delfino 93' orfrece unos amplios espacios equilibrados, funcionales, de yates más grandes y garantiza la seguridad típica de buques oceánicos. Tiene la estabiliad de un barco grande, con un casco diseñado para la máxima comodidad de cruceros y un sistema de estabilidad que usa elécrica en lugar de accionadores hidráulicos. Con sus 23.98 metros de longitud, Delfino 93' es calificado como una embarcación de recreo, una categoría con regulaciones menos restrictivas que las aplicadas a los yates más grandes. El tamaño compacto también asegura la facilidad de navegación en todo momento y permite al propietario en persona tomar el timón de su Delfino 93'.
+        </descripcio>
+        <resum>
+            El superyate Delfino 93' es más compacto de Benetti. Sus orígenes se encuentran en el interior exitoso para dar a sus propietarios toda la excelencia de Benetti en tan solo 93 pies. Ofrece de manera extensa y funcional forma los espacios del yate más largo y garantiza la seguridad de sus propietarios.
+        </resum>
+        <fotos>
+            <foto>img/Delfino93/0.jpg</foto>
+            <foto>img/Delfino93/1.jpg</foto>
+            <foto>img/Delfino93/2.jpg</foto>
+            <foto>img/Delfino93/3.jpg</foto>
+            <foto>img/Delfino93/4.jpg</foto>
+            <foto>img/Delfino93/5.jpg</foto>
+            <foto>img/Delfino93/6.jpg</foto>
+            <foto>img/Delfino93/7.jpg</foto>
+            <foto>img/Delfino93/8.jpg</foto>
+            <foto>img/Delfino93/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="2">
+        <nom>Diamonds are forever</nom>
+        <any>2011</any>
+        <port>Mallorca</port>
+        <especificacions>
+            <constructor>Benetti</constructor>
+            <metros>
+                <eslora>60.95m</eslora>
+                <maniga>10.60m</maniga>
+                <calat>2.59m</calat>
+            </metros>
+            <motor>20.000 l.</motor>
+            <velocitat>
+                <creuer>12 nudos</creuer>
+                <maxima>16 nudos</maxima>
+            </velocitat>
+            <numPassatgers>12</numPassatgers>
+            <numCamarots>8</numCamarots>
+            <tripulacio>15</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>250.000 €</estiu>
+            <resta>200.000 €</resta>
+        </preu>
+        <extres>
+            Equipo de buceo, embarcaciones individuales, kayaks, equipos de pesca y motos de agua junto con otros juguetes acuáticos.
+        </extres>
+        <descripcio>
+            Diamonds Are Forever es un superyate de Benetti de 61 metros, lanzado en 2011 y contruido bajo el casco ID FB 253. El superyate tiene un diseño Benetti exterior de interiores, mientras las características del interior son de gran lujo y estilo. Los grandes ventanales permiten que la luz natural se vierta en el interior para interpretar las diferentes tonalidades de marrón que broncean unidos con los cremas y blancos su interior. El gran yate tiene capacidad para 12 personas en dos habitaciones VIP magistrales y cuatro cabinas de invitados y un máxmino de 15 miembros de la tripulación. Sus muchas cubiertas con amplios espacios para la relajación y el entretenimiento. La sección de popa se puede utilizar como una almohadilla táctil heli-and-go o una gran zona de relax equipada con varios sillones. Diamonds Are Forever con su casco de acero y superestructura de aluminio tiene una viga total de más de 10.5 metros y tiene motores CAT 3512C gemelos con una velocidad máxima de 16 nudos. Está equipado con juguetes acuáticos como equipo de buceo, kayaks...
+        </descripcio>
+        <resum>
+            Diamonds Are Forever es un superyate de 61 metros de Benetti. Tiene un diseño estiloso y lujoso. Sus largas ventanas permiten que la luz natural del exterior penetre al interior, provocando varias sombras de marrones y se broncea unidos con los
+            colores cremas y los blancos del barco.
+        </resum>
+        <fotos>
+            <foto>img/DAF/0.jpg</foto>
+            <foto>img/DAF/1.jpg</foto>
+            <foto>img/DAF/2.jpg</foto>
+            <foto>img/DAF/3.jpg</foto>
+            <foto>img/DAF/4.jpg</foto>
+            <foto>img/DAF/5.jpg</foto>
+            <foto>img/DAF/6.jpg</foto>
+            <foto>img/DAF/7.jpg</foto>
+            <foto>img/DAF/8.jpg</foto>
+            <foto>img/DAF/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="3">
+        <nom>Xanadu</nom>
+        <any>2008</any>
+        <port>Mallorca</port>
+        <especificacions>
+            <constructor>Benetti</constructor>
+            <metros>
+                <eslora>60m</eslora>
+                <maniga>10.4m</maniga>
+                <calat>3.2m</calat>
+            </metros>
+            <motor>20.000 l.</motor>
+            <velocitat>
+                <creuer>15 nudos</creuer>
+                <maxima>18 nudos</maxima>
+            </velocitat>
+            <numPassatgers>10</numPassatgers>
+            <numCamarots>7</numCamarots>
+            <tripulacio>8</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>220.000 €</estiu>
+            <resta>190.000 €</resta>
+        </preu>
+        <extres>
+            Dispone de equipos de buceo, motos de agua, una lancha y otros juguetes acuáticos.
+        </extres>
+        <descripcio>
+            La clave para el proyecto Xanadu es la versatilidad. Cada área de la embarcación se itiliza para una variedad de propósitos, según la hora del día o el caprocho de sus huéspedes. El equipo de diseño se centró en hacer que sea más fácil para el equipo completar sus atareas, liberándolos para la materia de la diversión! En la zona interior, contiene una gran suit principal con un dormitorio que tiene una plataforma elevada con unas escaleras panorámicas hacia un salón y un además un cuarto de baño. Al lado de la habitación principal hay una cabia de personal pequeña. A continuación, hay una cabina VIP y cinco cabinas dobles. Xanadu es un alojamiento de lujo en toda regla.
+        </descripcio>
+        <resum>
+            La clave para el proyecto Xanadu es la versatilidad. Cada área del yate se puede usar para diferentes propósitos, dependiendo de la hora o el capricho de sus invitados. El equipo de diseño se centró en hacer que sea más fácil para el equipo completar sus tareas, liberándolos para la diversión!
+        </resum>
+        <fotos>
+            <foto>img/Xanadu/0.jpg</foto>
+            <foto>img/Xanadu/1.jpg</foto>
+            <foto>img/Xanadu/2.jpg</foto>
+            <foto>img/Xanadu/3.jpg</foto>
+            <foto>img/Xanadu/4.jpg</foto>
+            <foto>img/Xanadu/5.jpg</foto>
+            <foto>img/Xanadu/6.jpg</foto>
+            <foto>img/Xanadu/7.jpg</foto>
+            <foto>img/Xanadu/8.jpg</foto>
+            <foto>img/Xanadu/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="4">
+        <nom>Veloce 140'</nom>
+        <any>2016</any>
+        <port>Mallorca</port>
+        <especificacions>
+            <constructor>Benetti</constructor>
+            <metros>
+                <eslora>48m</eslora>
+                <maniga>8.5m</maniga>
+                <calat>2.3m</calat>
+            </metros>
+            <motor>35.000 l.</motor>
+            <velocitat>
+                <creuer>17 nudos</creuer>
+                <maxima>22 nudos</maxima>
+            </velocitat>
+            <numPassatgers>8</numPassatgers>
+            <numCamarots>5</numCamarots>
+            <tripulacio>5</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>200.000 €</estiu>
+            <resta>170.000 €</resta>
+        </preu>
+        <extres>
+            El yate dispone de una lancha motora y varios juguetes acuáticos. También curnta con un gimnasio.
+        </extres>
+        <descripcio>
+            Rápido, cómodo, eficiente y lleno de todas las idea más recientes en el diseño de yates. El Veloce 1400' cuenta con un interior elegante y contemporáneo que ha sido concebido en los tableros de dibujo de HJH Design. Completamente acomodado con los últimos sistemas de audio-visuales en todo el yate, muebles de calidad, salón principal y las áreas exteriores elegantes. Promete ser uno de los nuevos yates más convincentes sobre el mercado. Su acogedor y elegante salón principal invitará a los huéspedes a disfrutar de un entorno tranquilo y moderno ya sea para relajarse, descansar, comer, tomar una copa en el elegante bar o disfrutar de área de medios adyacente para eventos deportivos o películas facoritas.
+        </descripcio>
+        <resum>
+            Construido por la compañía italiana líder Benetti, el superyate Veloce 140’ dispone de 48 metros. Su motor pertenece a la Fast Displacement línea de motores para yates. Puede llegar a una velocidad máxima de 22 nudos y una velocidad de crucero de 17 nudos. Su diseño interior y exterior reflejan su lujo.
+        </resum>
+        <fotos>
+            <foto>img/Veloce140/0.jpg</foto>
+            <foto>img/Veloce140/1.jpg</foto>
+            <foto>img/Veloce140/2.jpg</foto>
+            <foto>img/Veloce140/3.jpg</foto>
+            <foto>img/Veloce140/4.jpg</foto>
+            <foto>img/Veloce140/5.jpg</foto>
+            <foto>img/Veloce140/6.jpg</foto>
+            <foto>img/Veloce140/7.jpg</foto>
+            <foto>img/Veloce140/8.jpg</foto>
+            <foto>img/Veloce140/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="5">
+        <nom>SL 86</nom>
+        <any>2015</any>
+        <port>Menorca</port>
+        <especificacions>
+            <constructor>Sanlorenzo</constructor>
+            <metros>
+                <eslora>26.45m</eslora>
+                <maniga>6.35m</maniga>
+                <calat>1.90m</calat>
+            </metros>
+            <motor>8.400 l.</motor>
+            <velocitat>
+                <creuer>27 nudos</creuer>
+                <maxima>32 nudos</maxima>
+            </velocitat>
+            <numPassatgers>8</numPassatgers>
+            <numCamarots>4</numCamarots>
+            <tripulacio>3</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>170.000 €</estiu>
+            <resta>120.000 €</resta>
+        </preu>
+        <extres>
+            Este yate cuenta con dos equipos de buceo junto con dos equipos de pesca y diferentes juguetes acuáticos.
+        </extres>
+        <descripcio>
+            Con sus 26’76 metros de longitud, el Sanlorenzo SL86 es un yate a motor con un revestimiento de fibra de vidrio, diseñado por Officina Italiana Design. Cuenta con un nuevo diseño, con una optimización de los espacios y muchas más innovaciones con características para convertirlo en un nuevo estándar en yates. La zona de proa, es ahora una sala de estar con sofás, mesas, cojines para tomar el sol, así como un parasol plegable. Para optimizar y maximizar todo el espacio y enriquecerlo con luz natural, se diseñaron unas ventadas laterales amplias para permitir capturar el máximo de luz exterior posible. Además, el salón tiene un tamaño grande y libera frescura.
+        </descripcio>
+        <resum>
+            El Sanlorenzo SL86 fue diseñado para optimizar y maximizar todos los aspectos, enriqueciendo su interior con luz natural. La ventanas laterales amplias permiten captar la luz del exterior, permitiendo a los huéspedes disfrutar de las vistas incluso mientras está sentado en el salón.
+        </resum>
+        <fotos>
+            <foto>img/SL86/0.jpg</foto>
+            <foto>img/SL86/1.jpg</foto>
+            <foto>img/SL86/2.jpg</foto>
+            <foto>img/SL86/3.jpg</foto>
+            <foto>img/SL86/4.jpg</foto>
+            <foto>img/SL86/5.jpg</foto>
+            <foto>img/SL86/6.jpg</foto>
+            <foto>img/SL86/7.jpg</foto>
+            <foto>img/SL86/8.jpg</foto>
+            <foto>img/SL86/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="6">
+        <nom>52 Steel</nom>
+        <any>2013</any>
+        <port>Mallorca</port>
+        <especificacions>
+            <constructor>Sanlorenzo</constructor>
+            <metros>
+                <eslora>52m</eslora>
+                <maniga>9.30m</maniga>
+                <calat>2.65m</calat>
+            </metros>
+            <motor>55.000 l.</motor>
+            <velocitat>
+                <creuer>11 nudos</creuer>
+                <maxima>17 nudos</maxima>
+            </velocitat>
+            <numPassatgers>10</numPassatgers>
+            <numCamarots>5</numCamarots>
+            <tripulacio>5</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>200.000 €</estiu>
+            <resta>170.000 €</resta>
+        </preu>
+        <extres>
+            Lancha acuática, equipos de buceo, equipos de pesca y juguetes acuáticos.
+        </extres>
+        <descripcio>
+          El Sanlorenzo 52Steel combina un diseño clásico de Sanlorenzo con la última moda. Las líneas elegantes y la armonía lo hacen un superyate de metal sin exageraciones. El yate tiene un casco de acero con una superestructura de aleación ligera. Es propulsado por los motores principales de Caterpillar 3512C. A una velocidad de 11 nudos económica, que tiene un alcance de 4.400 millas náuticas. El exterior y espacios interiores están limpios y refinado. Los paneles de cristal que rodean una piscina de hidromasaje rectangular crean un punto focal sereno en la cubierta de popa. En el interior hay un generoso salón de la cubierta principal con la explosión de la luz natural. Hay mucho espacio para relajarse o entretenerse. Pasillo completo alrededor de la cubierta sobre el nivel del salón del cielo. Salón superior cubierta como una amplia zona de estar / sala de estar, además de las áreas formales de comedor exterior e interior. Una despensa está convenientemente situado en la zona del vestíbulo cubierta superior. Club de playa amplio y contiguo gimnasio/sala de usos múltiples. La suite principal se encuentra en la cubierta principal, con cuatro camarotes de huéspedes en el piso inferior. Oficina de la cabina y la tripulación del Capitán son adyacentes a la cabina del piloto.
+        </descripcio>
+        <resum>
+            Basándose en la experiencia adquirida con el éxito comercial del 46 Steel, Sanlorenzo desarrolló el 52 metros de largo 52 Steel superyate que combina el refinado estilo de las últimas innovaciones técnicas en tan sólo 500 toneladas. Las líneas elegantes y la armonía lo hacen un superyate de metal sin exageraciones.
+        </resum>
+        <fotos>
+            <foto>img/52Steel/0.jpg</foto>
+            <foto>img/52Steel/1.jpg</foto>
+            <foto>img/52Steel/2.jpg</foto>
+            <foto>img/52Steel/3.jpg</foto>
+            <foto>img/52Steel/4.jpg</foto>
+            <foto>img/52Steel/5.jpg</foto>
+            <foto>img/52Steel/6.jpg</foto>
+            <foto>img/52Steel/7.jpg</foto>
+            <foto>img/52Steel/8.jpg</foto>
+            <foto>img/52Steel/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="7">
+        <nom>50 Alloy</nom>
+        <any>2014</any>
+        <port>Mallorca</port>
+        <especificacions>
+            <constructor>Sanlorenzo</constructor>
+            <metros>
+                <eslora>40.80m</eslora>
+                <maniga>7.90m</maniga>
+                <calat>3.10m</calat>
+            </metros>
+            <motor>35.000 l.</motor>
+            <velocitat>
+                <creuer>24  nudos</creuer>
+                <maxima>27 nudos</maxima>
+            </velocitat>
+            <numPassatgers>10</numPassatgers>
+            <numCamarots>5</numCamarots>
+            <tripulacio>5</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>180.000 €</estiu>
+            <resta>160.000 €</resta>
+        </preu>
+        <extres>
+            Equipos de buceo y juguetes acuáticos.
+        </extres>
+        <descripcio>
+            El 40 Alloy es un superyate rápida hecho de aluminio y acero, que cuenta con un casco semi planeo. Este modelo se encuentra en una clase propia, luciendo líneas fluidas y elegantes características innovadoras tales como terrazas exclusivas plegables que se abren al mar, o las puertas de ala de gaviota que generalmente se observa en los coches deportivos. Su diseño exterior vanguardista equilibrado con opciones de disposición interior innovadoras forman un entorno único para disfrutar de un retiro relajante y privada.
+        </descripcio>
+        <resum>
+            Luce líneas fluidas y elegantes características innovadoras tales como terrazas exclusivas plegables que se abren al mar, o las puertas de ala de gaviota. Su diseño exterior es innovadr y forma un entorno único para disfrutar de un retiro relajante y privada.
+        </resum>
+        <fotos>
+            <foto>img/50Alloy/0.jpg</foto>
+            <foto>img/50Alloy/1.jpg</foto>
+            <foto>img/50Alloy/2.jpg</foto>
+            <foto>img/50Alloy/3.jpg</foto>
+            <foto>img/50Alloy/4.jpg</foto>
+            <foto>img/50Alloy/5.jpg</foto>
+            <foto>img/50Alloy/6.jpg</foto>
+            <foto>img/50Alloy/7.jpg</foto>
+            <foto>img/50Alloy/8.jpg</foto>
+            <foto>img/50Alloy/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="8">
+        <nom>SL 118</nom>
+        <any>2015</any>
+        <port>Mallorca</port>
+        <especificacions>
+            <constructor>Sanlorenzo</constructor>
+            <metros>
+                <eslora>36.50m</eslora>
+                <maniga>7.60m</maniga>
+                <calat>2.08m</calat>
+            </metros>
+            <motor>19.900 l.</motor>
+            <velocitat>
+                <creuer>24 nudos</creuer>
+                <maxima>27 nudos</maxima>
+            </velocitat>
+            <numPassatgers>8</numPassatgers>
+            <numCamarots>4</numCamarots>
+            <tripulacio>3</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>160.000 €</estiu>
+            <resta>130.000 €</resta>
+        </preu>
+        <extres>
+            Equipos de buceo y pesca, kayak y juguetes acuáticos.
+        </extres>
+        <descripcio>
+          El SL 118 es el nuevo buque insignia de la línea SL, recuerda las características tradicionales de la línea SL, incluyendo soluciones innovadoras y espacios grandes, sin alterar la sensación de la familia tradicional. Las líneas exteriores lisas de la nueva 118 se ven reforzadas por un concepto de decoración que es un guiño contemporáneo a elementos náuticos clásicos. motivos tradicionales son reinterpretados con habilidad en una interpretación fresca simplemente moderna. El aspecto exterior de la cubierta da vida que cruza es capturado por el uso de suelo de teca y un juego de mesas que se convierten en una mesa de comedor tradicional. Una escalera de madera de teca tradicional al puente está revestido con vidrio para ser integrada con el salón y ser un elemento de diseño emocionante. Todos los elementos se han seleccionado deliberadamente para sugerir de descanso y relajación. El aire fresco y la visibilidad del mar es el mantra para el 118 con una terraza salón, ventanas del salón y ventanas que se abren al camarote principal de ala de gaviota de deslizamiento.
+        </descripcio>
+        <resum>
+            El SL 118 encarna la pureza de la línea Sanlorenzo, fortalecido y enriquecido con características de vanguardia. Tiene un amplio espacio interior que está excepcionalmente integrado en su perfil gracias al contraste blanco y negro entre las ventanas y la superestructura, con énfasis en el estilo típico de esta línea.
+        </resum>
+        <fotos>
+            <foto>img/SL118/0.jpg</foto>
+            <foto>img/SL118/1.jpg</foto>
+            <foto>img/SL118/2.jpg</foto>
+            <foto>img/SL118/3.jpg</foto>
+            <foto>img/SL118/4.jpg</foto>
+            <foto>img/SL118/5.jpg</foto>
+            <foto>img/SL118/6.jpg</foto>
+            <foto>img/SL118/7.jpg</foto>
+            <foto>img/SL118/8.jpg</foto>
+            <foto>img/SL118/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="9">
+        <nom>SD 126</nom>
+        <any>2014</any>
+        <port>Mallorca</port>
+        <especificacions>
+            <constructor>Sanlorenzo</constructor>
+            <metros>
+                <eslora>37.95m</eslora>
+                <maniga>8m</maniga>
+                <calat>2.18m</calat>
+            </metros>
+            <motor>34.200 l.</motor>
+            <velocitat>
+                <creuer>11 nudos</creuer>
+                <maxima>16.5 nudos</maxima>
+            </velocitat>
+            <numPassatgers>10</numPassatgers>
+            <numCamarots>5</numCamarots>
+            <tripulacio>5</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>160.000 €</estiu>
+            <resta>130.000 €</resta>
+        </preu>
+        <extres>
+            Lancha  amotor, dos motos de agua y juguetes acuáticos. También cuenta con diferentes equipos de buceo.
+        </extres>
+        <descripcio>
+            El buque insignia de la línea SD, el SD 126 es un yate a motor de cuatro cubierta hecha de material compuesto con un casco de semi-desplazamiento de casi 38 metros. A pesar de que está imponiendo tanto en términos de amplitud interior y dimensiones generales, su perfil evoca la armonía y la elegancia de un Sanlorenzo tradicional. El SD 126 se introdujo para ofrecer lo que ningún otro constructor podría hacer en un yate de este tamaño: flexibilidad total en la plataforma más estable alrededor. Se mostró especial atención a los detalles que hace que cada SD 126 sea una expresión única de su dueño. Al igual que cada propietario, cada embarcación es completamente diferente.Construido para un propietario exigente, el yate se completa con terraza salón y dos jacuzzis (fly y proa). El camarote principal tiene una ducha grande con un banco bajo 6 chorros de hidromasaje programables, también es un baño de vapor. El baño tiene un acabado en mármol de Carrara hermosa. El buque está impecable tanto mecánica como estéticamente, listo para ir a la estación de verano.
+        </descripcio>
+        <resum>
+            El buque insignia de la línea SD, el SD 126 es un yate a motor de cuatro cubierta hecha de material compuesto con un casco de semi-desplazamiento de casi 38 metros. A pesar de que está imponiendo tanto en términos de amplitud interior y dimensiones generales, su perfil evoca la armonía y la elegancia de un Sanlorenzo tradicional.
+        </resum>
+        <fotos>
+            <foto>img/SD126/0.jpg</foto>
+            <foto>img/SD126/1.jpg</foto>
+            <foto>img/SD126/2.jpg</foto>
+            <foto>img/SD126/3.jpg</foto>
+            <foto>img/SD126/4.jpg</foto>
+            <foto>img/SD126/5.jpg</foto>
+            <foto>img/SD126/6.jpg</foto>
+            <foto>img/SD126/7.jpg</foto>
+            <foto>img/SD126/8.jpg</foto>
+            <foto>img/SD126/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="10">
+        <nom>46 Steel</nom>
+        <any>2014</any>
+        <port>Mallorca</port>
+        <especificacions>
+            <constructor>Sanlorenzo</constructor>
+            <metros>
+                <eslora>46m</eslora>
+                <maniga>9.30m</maniga>
+                <calat>2.65m</calat>
+            </metros>
+            <motor>51.000 l.</motor>
+            <velocitat>
+                <creuer>11 nudos</creuer>
+                <maxima>17 nudos</maxima>
+            </velocitat>
+            <numPassatgers>10</numPassatgers>
+            <numCamarots>5</numCamarots>
+            <tripulacio>5</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>170.000 €</estiu>
+            <resta>140.000 €</resta>
+        </preu>
+        <extres>
+            Dos motos de agua y jueguetes acuáticos.
+        </extres>
+        <descripcio>
+            El 46 Steel es un superyate con cinco cubiertas, un casco de desplazamiento, cuerpo semi-ancho, casco de acero de alta resistencia a la tracción, y la superestructura de aluminio 5083. Una serie de terrazas del lado del casco con vistas al mar sin obstáculos o barreras para ocultar la vista de sus impresionantes alrededores. Las opciones de diseño se inspiran en las de superyates más grandes para asegurar a bordo amplitud y evitar cualquier compromiso en términos de confort. El 46 Steel ofrece un túnel debajo de la cubierta más baja para ahorrar espacio para las zonas de estar suntuosas, que en última instancia, proporciona un nivel sin precedentes de lujo para el propietario y clientes por igual. El 46 Steel fue el primer barco de este tamaño para incorporar esta característica innovadora.
+        </descripcio>
+        <resum>
+            El 46 Steel es un superyate con cinco cubiertas, un casco de desplazamiento, cuerpo semi-ancho y casco de acero de alta resistencia a la tracción. Las opciones de diseño se inspiran en las de superyates más grandes para asegurar a bordo amplitud y evitar cualquier compromiso en términos de confort.
+        </resum>
+        <fotos>
+            <foto>img/46Steel/0.jpg</foto>
+            <foto>img/46Steel/1.jpg</foto>
+            <foto>img/46Steel/2.jpg</foto>
+            <foto>img/46Steel/3.jpg</foto>
+            <foto>img/46Steel/4.jpg</foto>
+            <foto>img/46Steel/5.jpg</foto>
+            <foto>img/46Steel/6.jpg</foto>
+            <foto>img/46Steel/7.jpg</foto>
+            <foto>img/46Steel/8.jpg</foto>
+            <foto>img/46Steel/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="11">
+        <nom>Magellano 76</nom>
+        <any>2013</any>
+        <port>Eivissa</port>
+        <especificacions>
+            <constructor>Azimut</constructor>
+            <metros>
+                <eslora>24.40m</eslora>
+                <maniga>6.13m</maniga>
+                <calat>1.81m</calat>
+            </metros>
+            <motor>7.500 l.</motor>
+            <velocitat>
+                <creuer>17 nudos</creuer>
+                <maxima>22 nudos</maxima>
+            </velocitat>
+            <numPassatgers>8</numPassatgers>
+            <numCamarots>4</numCamarots>
+            <tripulacio>3</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>120.000 €</estiu>
+            <resta>100.000 €</resta>
+        </preu>
+        <extres>
+            Equipos de buceo y juguetes acuáticos.
+        </extres>
+        <descripcio>
+            El Magellano 76, el último modelo presentado y también el mayor de la gama del astillero italiano Azimut. Las líneas externas son reconocibles por la roda vertical, la pureza de las líneas, la verticalidad y amplitud de las cristaleras que circundan la superestructura y la armónica integración del flybridge en el conjunto, cuyo techo rígido, muy aéreo, es parte esencial del diseño desde un punto de vista estético. Sin embargo, destaca por el especial diseño de la carena creada de semidesplazamiento y que presenta formas redondeadas en la zona de la quilla, volumen en proa, arista viva en la línea de flotación y un ángulo de carena en popa de solo 8,2º lo que favorece el asentamiento y redunda por tanto en confort en navegación. La proa recta y ancha es ideal para el crucero a bajas velocidades, mientras que los largos redanes longitudinales proporcionan sustentación y permiten que el casco alcance el semiplaneo a altas velocidades. Nos encontramos pues con un barco creado para navegar confortablemente a velocidades de crucero tranquilo y en cualquier condición de mar, toda vez que puede alcanzar velocidades de hasta 22 nudos cuando la situación así lo requiere o la prisa nos empuja. Queda claro que nos encontramos ante un crucero destinado a las navegaciones largas con absoluta tranquilidad.
+        </descripcio>
+        <resum>
+            Belleza y comodidad, seguridad, autonomía y la carena ideal para largos cruceros con cualquier condición del mar. El Magellano 76 es para quien conoce la importancia del confort en los largos cruceros y para quien busca una estética refinada. Con este yate se consigue la emoción que se busca en los viajes.
+        </resum>
+        <fotos>
+            <foto>img/Magellano76/0.jpg</foto>
+            <foto>img/Magellano76/1.jpg</foto>
+            <foto>img/Magellano76/2.jpg</foto>
+            <foto>img/Magellano76/3.jpg</foto>
+            <foto>img/Magellano76/4.jpg</foto>
+            <foto>img/Magellano76/5.jpg</foto>
+            <foto>img/Magellano76/6.jpg</foto>
+            <foto>img/Magellano76/7.jpg</foto>
+            <foto>img/Magellano76/8.jpg</foto>
+            <foto>img/Magellano76/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="12">
+        <nom>Grande 100</nom>
+        <any>2014</any>
+        <port>Menorca</port>
+        <especificacions>
+            <constructor>Azimut</constructor>
+            <metros>
+                <eslora>31.04m</eslora>
+                <maniga>6.98m</maniga>
+                <calat>1.54m</calat>
+            </metros>
+            <motor>14.800 l.</motor>
+            <velocitat>
+                <creuer>22.5 nudos</creuer>
+                <maxima>25.5 nudos</maxima>
+            </velocitat>
+            <numPassatgers>8</numPassatgers>
+            <numCamarots>4</numCamarots>
+            <tripulacio>3</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>130.000 €</estiu>
+            <resta>110.000 €</resta>
+        </preu>
+        <extres>
+            Kayak, equipos de buceo y juegos acuáticos.
+        </extres>
+        <descripcio>
+            Con 31,04 metros de longitud, el superyate Azimut Grande 100 es un recipiente espléndido, puesto en marcha por el prestigioso constructor italiano Azimut en 2011. El yate de motor Azimut Grande 100 cuenta con un diseño exterior por el reconocido Stefano Righini y diseño de interiores por el conocido Carlo Galeazzi. El yate de lujo Azimut Grande 100 se acomoda a sus invitados en la comodidad, proporcionándoles 4 cabinas hermosas. Lleva un equipo impecable de 3 profesionales. Construido en material compuesto, el superyate Azimut Grande 100 está impulsado por dos motores diesel MTU 16V 2000M84, lo que le permite alcanzar una velocidad máxima de casi 26 nudos y una velocidad de crucero de 22,5 nudos. Su anchura es de 6.98m, mientras que su proyecto de quilla a plena carga es de 1,54 metros.
+        </descripcio>
+        <resum>
+            Grande en cuanto la concepción del confort y la exposición de la elegancia. Expresa todo lo que exige un buque insignia, combinando la fascinación del estilo italiano y un concepto riguroso de proyecto para crear excelencia. Dispone de gran carácter y dinamismo en sus 31 metros de megayate.
+        </resum>
+        <fotos>
+            <foto>img/Grande100/0.jpg</foto>
+            <foto>img/Grande100/1.jpg</foto>
+            <foto>img/Grande100/2.jpg</foto>
+            <foto>img/Grande100/3.jpg</foto>
+            <foto>img/Grande100/4.jpg</foto>
+            <foto>img/Grande100/5.jpg</foto>
+            <foto>img/Grande100/6.jpg</foto>
+            <foto>img/Grande100/7.jpg</foto>
+            <foto>img/Grande100/8.jpg</foto>
+            <foto>img/Grande100/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="13">
+        <nom>Dragon 66</nom>
+        <any>2014</any>
+        <port>Eivissa</port>
+        <especificacions>
+            <constructor>Azimut</constructor>
+            <metros>
+                <eslora>20.15m</eslora>
+                <maniga>5.06m</maniga>
+                <calat>1.51m</calat>
+            </metros>
+            <motor>3.900 l.</motor>
+            <velocitat>
+                <creuer>28 nudos</creuer>
+                <maxima>34 nudos</maxima>
+            </velocitat>
+            <numPassatgers>6</numPassatgers>
+            <numCamarots>3</numCamarots>
+            <tripulacio>2</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>120.000 €</estiu>
+            <resta>100.000 €</resta>
+        </preu>
+        <extres>
+            Este yate cuenta con equipos de buceo y pesca junto con juguetes acuáticos.
+        </extres>
+        <descripcio>
+            Azimut puso en marcha la primera de su serie Dragon China, un yate de 20 metros (66 pies) que fue diseñado específicamente para el mercado chino. La serie Dragon está lista para proporcionar la mejor experiencia de navegación. El constructor ha ideado conceptos y estilos hechos a la medida para este proyecto. Proporciona a su la mejor experiencia de navegación, Azimut ha ideado conceptos y estilos hechos a la medida para este mercado: el resultado es la serie Azimut dragón. El foco principal de los diseñadores era crear un ambiente agradable, alegre, la interpretación de los diversos aspectos que intervienen de modo que la filosofía de "estar juntos" se podría convertir en soluciones tangibles y funcionales. Por lo tanto, los espacios se organizaron para girar en torno a las grandes áreas de juegos, karaoke y comedor. Los yates Azimut 66 tienen un aire oriental, creando un estado de ánimo encantador con un acabado de meticuloso y detalles que son únicos e inconfundibles: verdadero estilo italiano por yates de Azimut.
+        </descripcio>
+        <resum>
+            Existen pocos yates que puedan competir en éxito contra el Dragon 66 de Azimut. El estiloso exterior fue completamente diseñado por Stefano Righini. El yate fue construido usando materiales de alta gamma y las últimas tecnologías en la industria. Es uno de los yates más confortables y elegantes de su clase.
+        </resum>
+        <fotos>
+            <foto>img/Dragon66/0.jpg</foto>
+            <foto>img/Dragon66/1.jpg</foto>
+            <foto>img/Dragon66/2.jpg</foto>
+            <foto>img/Dragon66/3.jpg</foto>
+            <foto>img/Dragon66/4.jpg</foto>
+            <foto>img/Dragon66/5.jpg</foto>
+            <foto>img/Dragon66/6.jpg</foto>
+            <foto>img/Dragon66/7.jpg</foto>
+            <foto>img/Dragon66/8.jpg</foto>
+            <foto>img/Dragon66/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="14">
+        <nom>Atlantis 43</nom>
+        <any>2013</any>
+        <port>Mallorca</port>
+        <especificacions>
+            <constructor>Azimut</constructor>
+            <metros>
+                <eslora>13.86m</eslora>
+                <maniga>4.25m</maniga>
+                <calat>1.1m</calat>
+            </metros>
+            <motor>900 l.</motor>
+            <velocitat>
+                <creuer>30 nudos</creuer>
+                <maxima>35 nudos</maxima>
+            </velocitat>
+            <numPassatgers>5</numPassatgers>
+            <numCamarots>2</numCamarots>
+            <tripulacio>2</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>180.000 €</estiu>
+            <resta>150.000 €</resta>
+        </preu>
+        <extres>
+            Juguetes acuáticos y equipos de buceo.
+        </extres>
+        <descripcio>
+            Se trata de un yate maravilloso. Este nuevo yate de 43 pies refleja el estilo italiano en toda su dimensión. Novedad en el pasado salón náutico de Düsseldorf, este diseño combina en sus más de trece metros de eslora todas las tendencias actuales. Solárium amplio a proa, bañera con hard top, solárium en la zona de popa, amplia plataforma de baño (opcionalmente hidráulica) y una bañera inteligentemente aprovechada, con una dinete grande a babor y un completo puesto de gobierno, además del mueble de servicio. El Atlantis 43 se ha concebido como barco mediterráneo, con amplios espacios al aire libre, pero también con la capacidad de proteger totalmente la bañera con el gran techo practicable, que se desplaza mediante un sistema eléctrico. En cuanto a los interiores el astillero ha planteado una cabina de invitados a popa, con su respectivo aseo completo, con ducha; un salón central junto a un espacio amplio destinado a la cocina; y una cabina para el armador a proa, también con el aseo completo correspondiente. La motorización de serie depende de dos Volvo Penta D6 Dp que son capaces de proporcionar una velocidad punta de 35 nudos, según el astillero.
+        </descripcio>
+        <resum>
+            Elegancia, deportividad y carena esbelta, líneas armoniosas y grandes, prestaciones para el máximo confort, junto co volúmenes fuera de lo común. La anchura de la embarcación y la altura de cada ambiente son grandes para su categoría. Con el Atlantis 43 se puede descubrir el mar de una forma única.
+        </resum>
+        <fotos>
+            <foto>img/Atlantis43/0.jpg</foto>
+            <foto>img/Atlantis43/1.jpg</foto>
+            <foto>img/Atlantis43/2.jpg</foto>
+            <foto>img/Atlantis43/3.jpg</foto>
+            <foto>img/Atlantis43/4.jpg</foto>
+            <foto>img/Atlantis43/5.jpg</foto>
+            <foto>img/Atlantis43/6.jpg</foto>
+            <foto>img/Atlantis43/7.jpg</foto>
+            <foto>img/Atlantis43/8.jpg</foto>
+            <foto>img/Atlantis43/9.jpg</foto>
+        </fotos>
+    </barco>
+
+    <barco id="15">
+        <nom>100 Leonardo</nom>
+        <any>2013</any>
+        <port>Menorca</port>
+        <especificacions>
+            <constructor>Azimut</constructor>
+            <metros>
+                <eslora>30.75m</eslora>
+                <maniga>7.15m</maniga>
+                <calat>2.02m</calat>
+            </metros>
+            <motor>10.750 l.</motor>
+            <velocitat>
+                <creuer>20.5 nudos</creuer>
+                <maxima>31 nudos</maxima>
+            </velocitat>
+            <numPassatgers>8</numPassatgers>
+            <numCamarots>4</numCamarots>
+            <tripulacio>3</tripulacio>
+        </especificacions>
+        <preu>
+            <estiu>210.000 €</estiu>
+            <resta>190.000 €</resta>
+        </preu>
+        <extres>
+            Equipos de buceo y pesca, una moto de agua y juguetes acuáticos.
+        </extres>
+        <descripcio>
+            Combina la deportividad y la elegancia. Con su diseño interior exclusivo,  demuestra que es un loft elegante, diseñado para garantizar al propietario y sus huéspedes ocio y relajación absoluta. El 100 Leonardo es una clase propia, un yate de diseño extremadamente refinado, con líneas de estilo único y dinámico. La superestructura está ajustada más ligeramente desde atrás hacia la popa para resaltar el carácter dinámico y agresivo de su perfil, inclinándose en el horizonte. Un concepto dinámico con terrazas amplias y soluciones únicas -como la escalera que une el puente al salón o el panel de techo de cristal de la cabina de mando- hacen del Leonardo 100 un gran embajador de estilo y creatividad. Los espacios exteriores son una fiesta para los ojos, con su diseño único que rompe las normas tradicionales de yates en esta clase. Esto proporciona al propietario el barco ideal para maximizar el placer y entretenimiento, asegurando que cada momento a bordo sea experimentado tan intensamente como sea posible. Un maravilloso loft completamente exclusivo en el mar. Esta es probablemente la descripción más precisa para el Leonardo 100, diseñado para albergar eventos sociales a bordo, en cualquier momento y en cualquier lugar, gracias a un incomparable nivel de privacidad. El salón se ha concebido como un espacio que puede ser experimentado en la forma más intensiva, la cual al mismo tiempo le  permite una escena increíble: el puente, la cabina y la sección de popa llena de invitados felices... pruebe su carácter incuestionablemente vivo. Los materiales de los yates de Azimut se han diseñado y desarrollado para ofrecer a sus usuarios la representación más exacta de la embarcación perfecta.
+        </descripcio>
+        <resum>
+            Un loft sobre el mar. Grandes superficies abiertas, inmensas zonas solárium, interiores glamour donde el proyecto del moblaje deja todo el espacio a las superficies acristaladas. El 100 Leonardo es una clase propia, un yate de diseño extremadamente refinado, con líneas de estilo único y dinámico.
+        </resum>
+        <fotos>
+            <foto>img/100Leonardo/0.jpg</foto>
+            <foto>img/100Leonardo/1.jpg</foto>
+            <foto>img/100Leonardo/2.jpg</foto>
+            <foto>img/100Leonardo/3.jpg</foto>
+            <foto>img/100Leonardo/4.jpg</foto>
+            <foto>img/100Leonardo/5.jpg</foto>
+            <foto>img/100Leonardo/6.jpg</foto>
+            <foto>img/100Leonardo/7.jpg</foto>
+            <foto>img/100Leonardo/8.jpg</foto>
+            <foto>img/100Leonardo/9.jpg</foto>
+        </fotos>
+    </barco>
+</barcos>

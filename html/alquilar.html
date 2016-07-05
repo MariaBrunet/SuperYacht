@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--Title-->
+    <title>SuperYachts</title>
+
+    <!-- css propi -->
+    <link href="css/estilo.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+ 	<script type="text/javascript">
+	  	$(function() {
+	    	$( "#datepicker" ).datepicker();
+	  	});
+	  	$(function() {
+	    	$( "#datepicker2" ).datepicker();
+	  	});
+  	</script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/barco.png">
+                </a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="active"><a>ALQUILAR</a></li>
+                    <li><a href="#contact">GALERIA</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-primary alquilar" id="about">
+        <form class="form-inline col-md-offset-3 col-md-7" accept-charset="utf-8" autocomplete="off" role="form" method="POST">
+            <div class="panel-primary panel">
+                <div class="panel-body">
+                    <div class="form-group isla">
+                        <select class="form-control select-isla" id="select-isla" name="isla">
+                            <option value="1" selected="selected">Elegir isla</option>
+                            <option value="2">Mallorca</option>
+                            <option value="3">Menorca</option>
+                            <option value="7">Ibiza</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="datepicker" name="entrada" placeholder="Entrada" required>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="datepicker2" name="salida" placeholder="Salida" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" id="buttonNewEmail" name="registrar" class="btn btn-md btn-primary form-control btn-filtrar" value="Envia">Filtrar</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="barco.html">
+                    <img class="img-responsive img-alquilar" src="img/SL86.jpg" alt="">
+                </a>
+                <h3>
+                    SL86
+                </h3>
+                <p>El Sanlorenzo SL86 fue diseñado para optimizar y maximizar todos los aspectos, enriqueciendo su interior con luz natural. La ventanas laterales amplias permiten captar la luz del exterior, permitiendo a los huéspedes disfrutar de las vistas incluso mientras está sentado en el salón.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive img-alquilar" src="img/delfino93.jpg" alt="">
+                </a>
+                <h3>
+                    Delfino 93'
+                </h3>
+                <p>El superyate Delfino 93’ es más compacto de Benetti’s. Sus orígenes se encuentran en el interior exitoso para dar a sus propietarios toda la excelencia de Benetti en tan solo 93 pies (28’35 m). Ofrece de manera extensa y funcional forma los espacios del yate más largo y garantiza la seguridad de sus propietarios.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive img-alquilar" src="img/DAF.jpg" alt="">
+                </a>
+                <h3>
+                    Diamonds Are Forever
+                </h3>
+                <p>Diamonds Are Forever es un superyate de 61 metros de Benetti. Tiene un diseño estiloso y lujoso. Sus largas ventanas permiten que la luz natural del exterior penetre al interior, provocando varias sombras de marrones y se broncea unidos
+                    con los colores cremas y los blancos del barco.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive img-alquilar" src="img/xanadu.jpg" alt="">
+                </a>
+                <h3>
+                    Xanadu
+                </h3>
+                <p>La clave para el proyecto Xanadu es la versatilidad. Cada área del yate se puede usar para diferentes propósitos, dependiendo de la hora o el capricho de sus invitados. El equipo de diseño se centró en hacer que sea más fácil para el equipo
+                    completar sus tareas, liberándolos para la diversión!</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive img-alquilar" src="img/M76.jpg" alt="">
+                </a>
+                <h3>
+                    Magellano 76
+                </h3>
+                <p>Belleza y comodidad, seguridad, autonomía y la carena ideal para largos cruceros con cualquier condición del mar. El Magellano 76 es para quien conoce la importancia del confort en los largos cruceros y para quien busca una estética refinada.
+                    Con este yate se consigue la emoción que se busca en los viajes.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive img-alquilar" src="img/G100.jpg" alt="">
+                </a>
+                <h3>
+                    Grande 100
+                </h3>
+                <p>Grande en cuanto la concepción del confort y la exposición de la elegancia. Expresa todo lo que exige un buque insignia, combinando la fascinación del estilo italiano y un concepto riguroso de proyecto para crear excelencia. Dispone de
+                    gran carácter y dinamismo en sus 31 metros de megayate.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive img-alquilar" src="img/veloce140.jpg" alt="">
+                </a>
+                <h3>
+                    Veloce 140’
+                </h3>
+                <p>Construido por la compañía italiana líder Benetti, el superyate Veloce 140’ dispone de 42 metros. Su motor pertenece a la Fast Displacement línea de motores para yates. Puede llegar a una velocidad máxima de 21 nudos y una velocidad de
+                    crucero de 16’5 nudos. Su diseño interior y exterior reflejan su lujo.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive img-alquilar" src="img/dragon66.jpg" alt="">
+                </a>
+                <h3>
+                    Dragon 66
+                </h3>
+                <p>Existen pocos yates que puedan competir en éxito contra el Dragon 66 de Azimut. El estiloso exterior fue completamente diseñado por Stefano Righini. El yate fue construido usando materiales de alta gamma y las últimas tecnologías en la
+                    industria. Es uno de los yates más confortables y elegantes de su clase.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive img-alquilar" src="img/atlantis43.jpg" alt="">
+                </a>
+                <h3>
+                    Atlantis 43
+                </h3>
+                <p>Elegancia, deportividad y carena esbelta, líneas armoniosas y grandes, prestaciones para el máximo confort, junto co volúmenes fuera de lo común. La anchura de la embarcación y la altura de cada ambiente son grandes para su categoría.
+                    Con el Atlantis 43 se puede descubrir el mar de una forma única.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
