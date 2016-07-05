@@ -3,6 +3,7 @@
 <barcos>
     <barco id="1">
         <nom>Delfino 93'</nom>
+        <nomCurt>Delfino93</nomCurt>
         <any>2014</any>
         <port>Eivissa</port>
         <especificacions>
@@ -35,21 +36,22 @@
             El superyate Delfino 93' es más compacto de Benetti. Sus orígenes se encuentran en el interior exitoso para dar a sus propietarios toda la excelencia de Benetti en tan solo 93 pies. Ofrece de manera extensa y funcional forma los espacios del yate más largo y garantiza la seguridad de sus propietarios.
         </resum>
         <fotos>
-            <foto>img/Delfino93/0.jpg</foto>
-            <foto>img/Delfino93/1.jpg</foto>
-            <foto>img/Delfino93/2.jpg</foto>
-            <foto>img/Delfino93/3.jpg</foto>
-            <foto>img/Delfino93/4.jpg</foto>
-            <foto>img/Delfino93/5.jpg</foto>
-            <foto>img/Delfino93/6.jpg</foto>
-            <foto>img/Delfino93/7.jpg</foto>
-            <foto>img/Delfino93/8.jpg</foto>
-            <foto>img/Delfino93/9.jpg</foto>
+            <foto id="0">img/Delfino93/0.jpg</foto>
+            <foto id="1">img/Delfino93/1.jpg</foto>
+            <foto id="2">img/Delfino93/2.jpg</foto>
+            <foto id="3">img/Delfino93/3.jpg</foto>
+            <foto id="4">img/Delfino93/4.jpg</foto>
+            <foto id="5">img/Delfino93/5.jpg</foto>
+            <foto id="6">img/Delfino93/6.jpg</foto>
+            <foto id="7">img/Delfino93/7.jpg</foto>
+            <foto id="8">img/Delfino93/8.jpg</foto>
+            <foto id="9">img/Delfino93/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="2">
         <nom>Diamonds are forever</nom>
+        <nomCurt>DAF</nomCurt>
         <any>2011</any>
         <port>Mallorca</port>
         <especificacions>
@@ -83,21 +85,22 @@
             colores cremas y los blancos del barco.
         </resum>
         <fotos>
-            <foto>img/DAF/0.jpg</foto>
-            <foto>img/DAF/1.jpg</foto>
-            <foto>img/DAF/2.jpg</foto>
-            <foto>img/DAF/3.jpg</foto>
-            <foto>img/DAF/4.jpg</foto>
-            <foto>img/DAF/5.jpg</foto>
-            <foto>img/DAF/6.jpg</foto>
-            <foto>img/DAF/7.jpg</foto>
-            <foto>img/DAF/8.jpg</foto>
-            <foto>img/DAF/9.jpg</foto>
+            <foto id="0">img/DAF/0.jpg</foto>
+            <foto id="1">img/DAF/1.jpg</foto>
+            <foto id="2">img/DAF/2.jpg</foto>
+            <foto id="3">img/DAF/3.jpg</foto>
+            <foto id="4">img/DAF/4.jpg</foto>
+            <foto id="5">img/DAF/5.jpg</foto>
+            <foto id="6">img/DAF/6.jpg</foto>
+            <foto id="7">img/DAF/7.jpg</foto>
+            <foto id="8">img/DAF/8.jpg</foto>
+            <foto id="9">img/DAF/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="3">
         <nom>Xanadu</nom>
+        <nomCurt>Xanadu</nomCurt>
         <any>2008</any>
         <port>Mallorca</port>
         <especificacions>
@@ -130,21 +133,22 @@
             La clave para el proyecto Xanadu es la versatilidad. Cada área del yate se puede usar para diferentes propósitos, dependiendo de la hora o el capricho de sus invitados. El equipo de diseño se centró en hacer que sea más fácil para el equipo completar sus tareas, liberándolos para la diversión!
         </resum>
         <fotos>
-            <foto>img/Xanadu/0.jpg</foto>
-            <foto>img/Xanadu/1.jpg</foto>
-            <foto>img/Xanadu/2.jpg</foto>
-            <foto>img/Xanadu/3.jpg</foto>
-            <foto>img/Xanadu/4.jpg</foto>
-            <foto>img/Xanadu/5.jpg</foto>
-            <foto>img/Xanadu/6.jpg</foto>
-            <foto>img/Xanadu/7.jpg</foto>
-            <foto>img/Xanadu/8.jpg</foto>
-            <foto>img/Xanadu/9.jpg</foto>
+            <foto id="0">img/Xanadu/0.jpg</foto>
+            <foto id="1">img/Xanadu/1.jpg</foto>
+            <foto id="2">img/Xanadu/2.jpg</foto>
+            <foto id="3">img/Xanadu/3.jpg</foto>
+            <foto id="4">img/Xanadu/4.jpg</foto>
+            <foto id="5">img/Xanadu/5.jpg</foto>
+            <foto id="6">img/Xanadu/6.jpg</foto>
+            <foto id="7">img/Xanadu/7.jpg</foto>
+            <foto id="8">img/Xanadu/8.jpg</foto>
+            <foto id="9">img/Xanadu/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="4">
         <nom>Veloce 140'</nom>
+        <nomCurt>Veloce140</nomCurt>
         <any>2016</any>
         <port>Mallorca</port>
         <especificacions>
@@ -177,21 +181,22 @@
             Construido por la compañía italiana líder Benetti, el superyate Veloce 140’ dispone de 48 metros. Su motor pertenece a la Fast Displacement línea de motores para yates. Puede llegar a una velocidad máxima de 22 nudos y una velocidad de crucero de 17 nudos. Su diseño interior y exterior reflejan su lujo.
         </resum>
         <fotos>
-            <foto>img/Veloce140/0.jpg</foto>
-            <foto>img/Veloce140/1.jpg</foto>
-            <foto>img/Veloce140/2.jpg</foto>
-            <foto>img/Veloce140/3.jpg</foto>
-            <foto>img/Veloce140/4.jpg</foto>
-            <foto>img/Veloce140/5.jpg</foto>
-            <foto>img/Veloce140/6.jpg</foto>
-            <foto>img/Veloce140/7.jpg</foto>
-            <foto>img/Veloce140/8.jpg</foto>
-            <foto>img/Veloce140/9.jpg</foto>
+            <foto id="0">img/Veloce140/0.jpg</foto>
+            <foto id="1">img/Veloce140/1.jpg</foto>
+            <foto id="2">img/Veloce140/2.jpg</foto>
+            <foto id="3">img/Veloce140/3.jpg</foto>
+            <foto id="4">img/Veloce140/4.jpg</foto>
+            <foto id="5">img/Veloce140/5.jpg</foto>
+            <foto id="6">img/Veloce140/6.jpg</foto>
+            <foto id="7">img/Veloce140/7.jpg</foto>
+            <foto id="8">img/Veloce140/8.jpg</foto>
+            <foto id="9">img/Veloce140/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="5">
         <nom>SL 86</nom>
+        <nomCurt>SL86</nomCurt>
         <any>2015</any>
         <port>Menorca</port>
         <especificacions>
@@ -224,21 +229,22 @@
             El Sanlorenzo SL86 fue diseñado para optimizar y maximizar todos los aspectos, enriqueciendo su interior con luz natural. La ventanas laterales amplias permiten captar la luz del exterior, permitiendo a los huéspedes disfrutar de las vistas incluso mientras está sentado en el salón.
         </resum>
         <fotos>
-            <foto>img/SL86/0.jpg</foto>
-            <foto>img/SL86/1.jpg</foto>
-            <foto>img/SL86/2.jpg</foto>
-            <foto>img/SL86/3.jpg</foto>
-            <foto>img/SL86/4.jpg</foto>
-            <foto>img/SL86/5.jpg</foto>
-            <foto>img/SL86/6.jpg</foto>
-            <foto>img/SL86/7.jpg</foto>
-            <foto>img/SL86/8.jpg</foto>
-            <foto>img/SL86/9.jpg</foto>
+            <foto id="0">img/SL86/0.jpg</foto>
+            <foto id="1">img/SL86/1.jpg</foto>
+            <foto id="2">img/SL86/2.jpg</foto>
+            <foto id="3">img/SL86/3.jpg</foto>
+            <foto id="4">img/SL86/4.jpg</foto>
+            <foto id="5">img/SL86/5.jpg</foto>
+            <foto id="6">img/SL86/6.jpg</foto>
+            <foto id="7">img/SL86/7.jpg</foto>
+            <foto id="8">img/SL86/8.jpg</foto>
+            <foto id="9">img/SL86/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="6">
         <nom>52 Steel</nom>
+        <nomCurt>52Steel</nomCurt>
         <any>2013</any>
         <port>Mallorca</port>
         <especificacions>
@@ -271,21 +277,22 @@
             Basándose en la experiencia adquirida con el éxito comercial del 46 Steel, Sanlorenzo desarrolló el 52 metros de largo 52 Steel superyate que combina el refinado estilo de las últimas innovaciones técnicas en tan sólo 500 toneladas. Las líneas elegantes y la armonía lo hacen un superyate de metal sin exageraciones.
         </resum>
         <fotos>
-            <foto>img/52Steel/0.jpg</foto>
-            <foto>img/52Steel/1.jpg</foto>
-            <foto>img/52Steel/2.jpg</foto>
-            <foto>img/52Steel/3.jpg</foto>
-            <foto>img/52Steel/4.jpg</foto>
-            <foto>img/52Steel/5.jpg</foto>
-            <foto>img/52Steel/6.jpg</foto>
-            <foto>img/52Steel/7.jpg</foto>
-            <foto>img/52Steel/8.jpg</foto>
-            <foto>img/52Steel/9.jpg</foto>
+            <foto id="0">img/52Steel/0.jpg</foto>
+            <foto id="1">img/52Steel/1.jpg</foto>
+            <foto id="2">img/52Steel/2.jpg</foto>
+            <foto id="3">img/52Steel/3.jpg</foto>
+            <foto id="4">img/52Steel/4.jpg</foto>
+            <foto id="5">img/52Steel/5.jpg</foto>
+            <foto id="6">img/52Steel/6.jpg</foto>
+            <foto id="7">img/52Steel/7.jpg</foto>
+            <foto id="8">img/52Steel/8.jpg</foto>
+            <foto id="9">img/52Steel/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="7">
         <nom>50 Alloy</nom>
+        <nomCurt>50Alloy</nomCurt>
         <any>2014</any>
         <port>Mallorca</port>
         <especificacions>
@@ -318,21 +325,22 @@
             Luce líneas fluidas y elegantes características innovadoras tales como terrazas exclusivas plegables que se abren al mar, o las puertas de ala de gaviota. Su diseño exterior es innovadr y forma un entorno único para disfrutar de un retiro relajante y privada.
         </resum>
         <fotos>
-            <foto>img/50Alloy/0.jpg</foto>
-            <foto>img/50Alloy/1.jpg</foto>
-            <foto>img/50Alloy/2.jpg</foto>
-            <foto>img/50Alloy/3.jpg</foto>
-            <foto>img/50Alloy/4.jpg</foto>
-            <foto>img/50Alloy/5.jpg</foto>
-            <foto>img/50Alloy/6.jpg</foto>
-            <foto>img/50Alloy/7.jpg</foto>
-            <foto>img/50Alloy/8.jpg</foto>
-            <foto>img/50Alloy/9.jpg</foto>
+            <foto id="0">img/50Alloy/0.jpg</foto>
+            <foto id="1">img/50Alloy/1.jpg</foto>
+            <foto id="2">img/50Alloy/2.jpg</foto>
+            <foto id="3">img/50Alloy/3.jpg</foto>
+            <foto id="4">img/50Alloy/4.jpg</foto>
+            <foto id="5">img/50Alloy/5.jpg</foto>
+            <foto id="6">img/50Alloy/6.jpg</foto>
+            <foto id="7">img/50Alloy/7.jpg</foto>
+            <foto id="8">img/50Alloy/8.jpg</foto>
+            <foto id="9">img/50Alloy/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="8">
         <nom>SL 118</nom>
+        <nomCurt>SL118</nomCurt>
         <any>2015</any>
         <port>Mallorca</port>
         <especificacions>
@@ -365,21 +373,22 @@
             El SL 118 encarna la pureza de la línea Sanlorenzo, fortalecido y enriquecido con características de vanguardia. Tiene un amplio espacio interior que está excepcionalmente integrado en su perfil gracias al contraste blanco y negro entre las ventanas y la superestructura, con énfasis en el estilo típico de esta línea.
         </resum>
         <fotos>
-            <foto>img/SL118/0.jpg</foto>
-            <foto>img/SL118/1.jpg</foto>
-            <foto>img/SL118/2.jpg</foto>
-            <foto>img/SL118/3.jpg</foto>
-            <foto>img/SL118/4.jpg</foto>
-            <foto>img/SL118/5.jpg</foto>
-            <foto>img/SL118/6.jpg</foto>
-            <foto>img/SL118/7.jpg</foto>
-            <foto>img/SL118/8.jpg</foto>
-            <foto>img/SL118/9.jpg</foto>
+            <foto id="0">img/SL118/0.jpg</foto>
+            <foto id="1">img/SL118/1.jpg</foto>
+            <foto id="2">img/SL118/2.jpg</foto>
+            <foto id="3">img/SL118/3.jpg</foto>
+            <foto id="4">img/SL118/4.jpg</foto>
+            <foto id="5">img/SL118/5.jpg</foto>
+            <foto id="6">img/SL118/6.jpg</foto>
+            <foto id="7">img/SL118/7.jpg</foto>
+            <foto id="8">img/SL118/8.jpg</foto>
+            <foto id="9">img/SL118/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="9">
         <nom>SD 126</nom>
+        <nomCurt>SD126</nomCurt>
         <any>2014</any>
         <port>Mallorca</port>
         <especificacions>
@@ -412,21 +421,22 @@
             El buque insignia de la línea SD, el SD 126 es un yate a motor de cuatro cubierta hecha de material compuesto con un casco de semi-desplazamiento de casi 38 metros. A pesar de que está imponiendo tanto en términos de amplitud interior y dimensiones generales, su perfil evoca la armonía y la elegancia de un Sanlorenzo tradicional.
         </resum>
         <fotos>
-            <foto>img/SD126/0.jpg</foto>
-            <foto>img/SD126/1.jpg</foto>
-            <foto>img/SD126/2.jpg</foto>
-            <foto>img/SD126/3.jpg</foto>
-            <foto>img/SD126/4.jpg</foto>
-            <foto>img/SD126/5.jpg</foto>
-            <foto>img/SD126/6.jpg</foto>
-            <foto>img/SD126/7.jpg</foto>
-            <foto>img/SD126/8.jpg</foto>
-            <foto>img/SD126/9.jpg</foto>
+            <foto id="0">img/SD126/0.jpg</foto>
+            <foto id="1">img/SD126/1.jpg</foto>
+            <foto id="2">img/SD126/2.jpg</foto>
+            <foto id="3">img/SD126/3.jpg</foto>
+            <foto id="4">img/SD126/4.jpg</foto>
+            <foto id="5">img/SD126/5.jpg</foto>
+            <foto id="6">img/SD126/6.jpg</foto>
+            <foto id="7">img/SD126/7.jpg</foto>
+            <foto id="8">img/SD126/8.jpg</foto>
+            <foto id="9">img/SD126/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="10">
         <nom>46 Steel</nom>
+        <nomCurt>46Steel</nomCurt>
         <any>2014</any>
         <port>Mallorca</port>
         <especificacions>
@@ -459,21 +469,22 @@
             El 46 Steel es un superyate con cinco cubiertas, un casco de desplazamiento, cuerpo semi-ancho y casco de acero de alta resistencia a la tracción. Las opciones de diseño se inspiran en las de superyates más grandes para asegurar a bordo amplitud y evitar cualquier compromiso en términos de confort.
         </resum>
         <fotos>
-            <foto>img/46Steel/0.jpg</foto>
-            <foto>img/46Steel/1.jpg</foto>
-            <foto>img/46Steel/2.jpg</foto>
-            <foto>img/46Steel/3.jpg</foto>
-            <foto>img/46Steel/4.jpg</foto>
-            <foto>img/46Steel/5.jpg</foto>
-            <foto>img/46Steel/6.jpg</foto>
-            <foto>img/46Steel/7.jpg</foto>
-            <foto>img/46Steel/8.jpg</foto>
-            <foto>img/46Steel/9.jpg</foto>
+            <foto id="0">img/46Steel/0.jpg</foto>
+            <foto id="1">img/46Steel/1.jpg</foto>
+            <foto id="2">img/46Steel/2.jpg</foto>
+            <foto id="3">img/46Steel/3.jpg</foto>
+            <foto id="4">img/46Steel/4.jpg</foto>
+            <foto id="5">img/46Steel/5.jpg</foto>
+            <foto id="6">img/46Steel/6.jpg</foto>
+            <foto id="7">img/46Steel/7.jpg</foto>
+            <foto id="8">img/46Steel/8.jpg</foto>
+            <foto id="9">img/46Steel/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="11">
         <nom>Magellano 76</nom>
+        <nomCurt>Magellano76</nomCurt>
         <any>2013</any>
         <port>Eivissa</port>
         <especificacions>
@@ -506,21 +517,22 @@
             Belleza y comodidad, seguridad, autonomía y la carena ideal para largos cruceros con cualquier condición del mar. El Magellano 76 es para quien conoce la importancia del confort en los largos cruceros y para quien busca una estética refinada. Con este yate se consigue la emoción que se busca en los viajes.
         </resum>
         <fotos>
-            <foto>img/Magellano76/0.jpg</foto>
-            <foto>img/Magellano76/1.jpg</foto>
-            <foto>img/Magellano76/2.jpg</foto>
-            <foto>img/Magellano76/3.jpg</foto>
-            <foto>img/Magellano76/4.jpg</foto>
-            <foto>img/Magellano76/5.jpg</foto>
-            <foto>img/Magellano76/6.jpg</foto>
-            <foto>img/Magellano76/7.jpg</foto>
-            <foto>img/Magellano76/8.jpg</foto>
-            <foto>img/Magellano76/9.jpg</foto>
+            <foto id="0">img/Magellano76/0.jpg</foto>
+            <foto id="1">img/Magellano76/1.jpg</foto>
+            <foto id="2">img/Magellano76/2.jpg</foto>
+            <foto id="3">img/Magellano76/3.jpg</foto>
+            <foto id="4">img/Magellano76/4.jpg</foto>
+            <foto id="5">img/Magellano76/5.jpg</foto>
+            <foto id="6">img/Magellano76/6.jpg</foto>
+            <foto id="7">img/Magellano76/7.jpg</foto>
+            <foto id="8">img/Magellano76/8.jpg</foto>
+            <foto id="9">img/Magellano76/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="12">
         <nom>Grande 100</nom>
+        <nomCurt>Grande100</nomCurt>
         <any>2014</any>
         <port>Menorca</port>
         <especificacions>
@@ -553,21 +565,22 @@
             Grande en cuanto la concepción del confort y la exposición de la elegancia. Expresa todo lo que exige un buque insignia, combinando la fascinación del estilo italiano y un concepto riguroso de proyecto para crear excelencia. Dispone de gran carácter y dinamismo en sus 31 metros de megayate.
         </resum>
         <fotos>
-            <foto>img/Grande100/0.jpg</foto>
-            <foto>img/Grande100/1.jpg</foto>
-            <foto>img/Grande100/2.jpg</foto>
-            <foto>img/Grande100/3.jpg</foto>
-            <foto>img/Grande100/4.jpg</foto>
-            <foto>img/Grande100/5.jpg</foto>
-            <foto>img/Grande100/6.jpg</foto>
-            <foto>img/Grande100/7.jpg</foto>
-            <foto>img/Grande100/8.jpg</foto>
-            <foto>img/Grande100/9.jpg</foto>
+            <foto id="0">img/Grande100/0.jpg</foto>
+            <foto id="1">img/Grande100/1.jpg</foto>
+            <foto id="2">img/Grande100/2.jpg</foto>
+            <foto id="3">img/Grande100/3.jpg</foto>
+            <foto id="4">img/Grande100/4.jpg</foto>
+            <foto id="5">img/Grande100/5.jpg</foto>
+            <foto id="6">img/Grande100/6.jpg</foto>
+            <foto id="7">img/Grande100/7.jpg</foto>
+            <foto id="8">img/Grande100/8.jpg</foto>
+            <foto id="9">img/Grande100/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="13">
         <nom>Dragon 66</nom>
+        <nomCurt>Dragon66</nomCurt>
         <any>2014</any>
         <port>Eivissa</port>
         <especificacions>
@@ -600,21 +613,22 @@
             Existen pocos yates que puedan competir en éxito contra el Dragon 66 de Azimut. El estiloso exterior fue completamente diseñado por Stefano Righini. El yate fue construido usando materiales de alta gamma y las últimas tecnologías en la industria. Es uno de los yates más confortables y elegantes de su clase.
         </resum>
         <fotos>
-            <foto>img/Dragon66/0.jpg</foto>
-            <foto>img/Dragon66/1.jpg</foto>
-            <foto>img/Dragon66/2.jpg</foto>
-            <foto>img/Dragon66/3.jpg</foto>
-            <foto>img/Dragon66/4.jpg</foto>
-            <foto>img/Dragon66/5.jpg</foto>
-            <foto>img/Dragon66/6.jpg</foto>
-            <foto>img/Dragon66/7.jpg</foto>
-            <foto>img/Dragon66/8.jpg</foto>
-            <foto>img/Dragon66/9.jpg</foto>
+            <foto id="0">img/Dragon66/0.jpg</foto>
+            <foto id="1">img/Dragon66/1.jpg</foto>
+            <foto id="2">img/Dragon66/2.jpg</foto>
+            <foto id="3">img/Dragon66/3.jpg</foto>
+            <foto id="4">img/Dragon66/4.jpg</foto>
+            <foto id="5">img/Dragon66/5.jpg</foto>
+            <foto id="6">img/Dragon66/6.jpg</foto>
+            <foto id="7">img/Dragon66/7.jpg</foto>
+            <foto id="8">img/Dragon66/8.jpg</foto>
+            <foto id="9">img/Dragon66/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="14">
         <nom>Atlantis 43</nom>
+        <nomCurt>Atlantis43</nomCurt>
         <any>2013</any>
         <port>Mallorca</port>
         <especificacions>
@@ -647,21 +661,22 @@
             Elegancia, deportividad y carena esbelta, líneas armoniosas y grandes, prestaciones para el máximo confort, junto co volúmenes fuera de lo común. La anchura de la embarcación y la altura de cada ambiente son grandes para su categoría. Con el Atlantis 43 se puede descubrir el mar de una forma única.
         </resum>
         <fotos>
-            <foto>img/Atlantis43/0.jpg</foto>
-            <foto>img/Atlantis43/1.jpg</foto>
-            <foto>img/Atlantis43/2.jpg</foto>
-            <foto>img/Atlantis43/3.jpg</foto>
-            <foto>img/Atlantis43/4.jpg</foto>
-            <foto>img/Atlantis43/5.jpg</foto>
-            <foto>img/Atlantis43/6.jpg</foto>
-            <foto>img/Atlantis43/7.jpg</foto>
-            <foto>img/Atlantis43/8.jpg</foto>
-            <foto>img/Atlantis43/9.jpg</foto>
+            <foto id="0">img/Atlantis43/0.jpg</foto>
+            <foto id="1">img/Atlantis43/1.jpg</foto>
+            <foto id="2">img/Atlantis43/2.jpg</foto>
+            <foto id="3">img/Atlantis43/3.jpg</foto>
+            <foto id="4">img/Atlantis43/4.jpg</foto>
+            <foto id="5">img/Atlantis43/5.jpg</foto>
+            <foto id="6">img/Atlantis43/6.jpg</foto>
+            <foto id="7">img/Atlantis43/7.jpg</foto>
+            <foto id="8">img/Atlantis43/8.jpg</foto>
+            <foto id="9">img/Atlantis43/9.jpg</foto>
         </fotos>
     </barco>
 
     <barco id="15">
         <nom>100 Leonardo</nom>
+        <nomCurt>100Leonardo</nomCurt>
         <any>2013</any>
         <port>Menorca</port>
         <especificacions>
@@ -694,16 +709,16 @@
             Un loft sobre el mar. Grandes superficies abiertas, inmensas zonas solárium, interiores glamour donde el proyecto del moblaje deja todo el espacio a las superficies acristaladas. El 100 Leonardo es una clase propia, un yate de diseño extremadamente refinado, con líneas de estilo único y dinámico.
         </resum>
         <fotos>
-            <foto>img/100Leonardo/0.jpg</foto>
-            <foto>img/100Leonardo/1.jpg</foto>
-            <foto>img/100Leonardo/2.jpg</foto>
-            <foto>img/100Leonardo/3.jpg</foto>
-            <foto>img/100Leonardo/4.jpg</foto>
-            <foto>img/100Leonardo/5.jpg</foto>
-            <foto>img/100Leonardo/6.jpg</foto>
-            <foto>img/100Leonardo/7.jpg</foto>
-            <foto>img/100Leonardo/8.jpg</foto>
-            <foto>img/100Leonardo/9.jpg</foto>
+            <foto id="0">img/100Leonardo/0.jpg</foto>
+            <foto id="1">img/100Leonardo/1.jpg</foto>
+            <foto id="2">img/100Leonardo/2.jpg</foto>
+            <foto id="3">img/100Leonardo/3.jpg</foto>
+            <foto id="4">img/100Leonardo/4.jpg</foto>
+            <foto id="5">img/100Leonardo/5.jpg</foto>
+            <foto id="6">img/100Leonardo/6.jpg</foto>
+            <foto id="7">img/100Leonardo/7.jpg</foto>
+            <foto id="8">img/100Leonardo/8.jpg</foto>
+            <foto id="9">img/100Leonardo/9.jpg</foto>
         </fotos>
     </barco>
 </barcos>

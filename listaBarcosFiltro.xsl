@@ -40,6 +40,7 @@
 
                 <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
                 <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+                <script src="js/barco.js"></script>
                 <script type="text/javascript">
                     $(function () {
                         $("#datepicker").datepicker();
@@ -69,7 +70,7 @@
                                     <a href="index.html">HOME</a>
                                 </li>
                                 <li class="active">
-                                    <a>ALQUILAR</a>
+                                    <a onclick="requestBarco()">ALQUILAR</a>
                                 </li>
                                 <li>
                                     <a href="#contact">GALERIA</a>

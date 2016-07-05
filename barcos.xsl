@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
+        <xsl:apply-templates select="barcos/barco[@id = $Selected]"/>
+    </xsl:template>
+
+    <xsl:template match="barco">
         <html>
             <head>
                 <meta charset="utf-8"/>
@@ -23,20 +27,10 @@
                 <!-- css propi -->
                 <link href="css/estilo.css" rel="stylesheet"/>
 
-                <!-- script visor -->
-                <script type="text/javascript">
-                    window.onload = function () { //tras cargar la página ...
-                        visor1 = document.getElementById("visor"); //referencia al visor
-                        mititulo = document.getElementById("titulo"); //referencia al pie de foto
-                    }
 
-                    function mifoto(num) { //cambiar la imagen
-                        f = "img/SL86/" + num + ".jpg"; //ruta de la nueva imagen
-                        document.images["fotoVisor"].src = f; //cambiar imagen
-                        t = document.images["fotos" + num].alt; //texto de pie de foto
-                        mititulo.innerHTML = t; //cambiar pie de foto
-                    }
-                </script>
+                <!-- script visor -->
+                <script src="js/barco.js"></script>
+                <script src="js/visor.js"></script>
                 <script src="http://maps.googleapis.com/maps/api/js"></script>
                 <script>
                     var myCenter = new google.maps.LatLng(38.977695, 1.299599);
@@ -56,7 +50,7 @@
                 </script>
             </head>
 
-            <body>
+            <body> 
                 <nav class="navbar navbar-inverse navbar-fixed-top">
                     <div class="container">
                         <div class="navbar-header">
@@ -76,7 +70,7 @@
                                     <a href="index.html">HOME</a>
                                 </li>
                                 <li>
-                                    <a href="alquilar.html">ALQUILAR</a>
+                                    <a onclick="requestBarco()">ALQUILAR</a>
                                 </li>
                                 <li>
                                     <a href="#galeria">GALERIA</a>
@@ -90,97 +84,134 @@
                     <div class="container">
                         <div class="row">
                             <h1 class="nombre_barco">
-
+                                <xsl:value-of select="nom"/>
                             </h1> 
                             <div class="row featurette"> 
                                 <div class="col-md-7"> 
                                     <h2 class="featurette-heading">Descripción</h2>
                                         <p class="lead">
-                                            Con sus 26’76 metros de longitud, el Sanlorenzo SL86 es un yate a motor con un revestimiento de fibra de vidrio, diseñado por Officina Italiana Design. Cuenta con un nuevo diseño, con una optimización de los espacios y muchas más
-                                            innovaciones con características para convertirlo en un nuevo estándar en yates. La zona de proa, es ahora una sala de estar con sofás, mesas, cojines para tomar el sol, así como un parasol plegable.Para optimizar y maximizar todo el espacio y
-                                            enriquecerlo con luz natural, se diseñaron unas ventadas laterales amplias para permitir capturar el máximo de luz exterior posible. Además, el salón tiene un tamaño grande y libera frescura.
+                                            <xsl:value-of select="descripcio"/>
                                         </p>
-                        </div>
-                        <div class="col-md-5">
-                            <h2 class="featurette-heading">Especificaciones</h2>
-                            <table class="table table-hover tabla">
-                                <tbody>
-                                    <tr>
-                                        <td>Longitud</td>
-                                        <td>26.45m</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ancura</td>
-                                        <td>6.35m</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Calado</td>
-                                        <td>1.90m</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Pasajeros</td>
-                                        <td>8</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Tripulación</td>
-                                        <td>3</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Velocidad crucero</td>
-                                        <td>27 nudos</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Velocidad máxima</td>
-                                        <td>32 nudos</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Capacidad fuel</td>
-                                        <td>8400 l.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Puerto</td>
-                                        <td>Sant Antoni de Portmany</td>
-                                    </tr>
+                                </div>
+                                <div class="col-md-5">
+                                    <h2 class="featurette-heading">Especificaciones</h2>
+                                    <table class="table table-hover tabla">
+                                        <tbody>
+                                            <tr>
+                                                <td>Longitud</td>
+                                                <td><xsl:value-of select="especificacions/metros/eslora"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Anchura</td>
+                                                <td><xsl:value-of select="especificacions/metros/maniga"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Calado</td>
+                                                <td><xsl:value-of select="especificacions/metros/eslora"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Pasajeros</td>
+                                                <td><xsl:value-of select="especificacions/numPassatgers"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tripulación</td>
+                                                <td><xsl:value-of select="especificacions/tripulacio"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Velocidad crucero</td>
+                                                <td><xsl:value-of select="especificacions/velocitat/creuer"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Velocidad máxima</td>
+                                                <td><xsl:value-of select="especificacions/velocitat/maxima"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Capacidad fuel</td>
+                                                <td><xsl:value-of select="especificacions/motor"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Puerto</td>
+                                                <td><xsl:value-of select="preu"/></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <hr class="featurette-divider"/>
+                            <div class="col-md-offset-3 col-md-6">
+                                <br/>
+                                <a class="btn btn-lg btn-default btn-block" href="reservar.html" role="button">Reservar barco</a>
+                                <br/>
+                                <br/>
+                            </div>
 
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <hr class="featurette-divider"/>
-
-                    <div class="col-md-offset-3 col-md-6">
-                        <br/>
-                        <a class="btn btn-lg btn-default btn-block" href="reservar.html" role="button">Reservar barco</a>
-                        <br/>
-                        <br/>
-                    </div>
-
-                    <div class="col-lg-offset-1 col-lg-10">
-                        <div id="principal">
-                            <div id="visor">
-                                <img src='img/SL86/1.jpg' class="image-responsive" name='fotoVisor'/>
+                            <div class="col-lg-offset-1 col-lg-10">
+                                <div id="principal">
+                                    <div id="visor">
+                                        <img class="image-responsive" name='fotoVisor'>
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="fotos/foto[@id = 1]"/>
+                                            </xsl:attribute>
+                                        </img>
+                                    </div>
+                                </div>
+                                <div id="menu" style="text-align:center;">
+                                    <xsl:attribute name="name">
+                                        <xsl:value-of select="nomCurt"/>
+                                    </xsl:attribute>
+                                    <img class="image-responsive" name='fotos1' onclick="mifoto(1)">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="fotos/foto[@id = 1]"/>
+                                        </xsl:attribute>
+                                    </img>
+                                    <img class="image-responsive" name='fotos2' onclick="mifoto(2)">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="fotos/foto[@id = 2]"/>
+                                        </xsl:attribute>
+                                    </img>
+                                    <img class="image-responsive" name='fotos3' onclick="mifoto(3)">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="fotos/foto[@id = 3]"/>
+                                        </xsl:attribute>
+                                    </img>
+                                    <img class="image-responsive" name='fotos4' onclick="mifoto(4)">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="fotos/foto[@id = 4]"/>
+                                        </xsl:attribute>
+                                    </img>
+                                    <img class="image-responsive" name='fotos5' onclick="mifoto(5)">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="fotos/foto[@id = 5]"/>
+                                        </xsl:attribute>
+                                    </img>
+                                    <img class="image-responsive" name='fotos6' onclick="mifoto(6)">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="fotos/foto[@id = 6]"/>
+                                        </xsl:attribute>
+                                    </img>
+                                    <img class="image-responsive" name='fotos7' onclick="mifoto(7)">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="fotos/foto[@id = 7]"/>
+                                        </xsl:attribute>
+                                    </img>
+                                    <img class="image-responsive" name='fotos8' onclick="mifoto(8)">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="fotos/foto[@id = 8]"/>
+                                        </xsl:attribute>
+                                    </img>
+                                    <img class="image-responsive" name='fotos9' onclick="mifoto(9)">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="fotos/foto[@id = 9]"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </div>
                             </div>
                         </div>
-                        <div id="menu" style="text-align:center;">
-                            <img src='img/SL86/1.jpg' class="image-responsive" name='fotos1' onclick="mifoto(1)"/>
-                            <img src='img/SL86/2.jpg' class="image-responsive" name='fotos2' onclick="mifoto(2)"/>
-                            <img src='img/SL86/3.jpg' class="image-responsive" name='fotos3' onclick="mifoto(3)"/>
-                            <img src='img/SL86/4.jpg' class="image-responsive" name='fotos4' onclick="mifoto(4)"/>
-                            <img src='img/SL86/5.jpg' class="image-responsive" name='fotos5' onclick="mifoto(5)"/>
-                            <img src='img/SL86/6.jpg' class="image-responsive" name='fotos6' onclick="mifoto(6)"/>
-                            <img src='img/SL86/7.jpg' class="image-responsive" name='fotos7' onclick="mifoto(7)"/>
-                            <img src='img/SL86/8.jpg' class="image-responsive" name='fotos8' onclick="mifoto(8)"/>
-                            <img src='img/SL86/9.jpg' class="image-responsive" name='fotos9' onclick="mifoto(9)"/>
+                        <div class="container">
+                            <div id="googleMap" class="columns col-md-6 mapa-barco"></div>
                         </div>
                     </div>
-                </div>
-                <!--Row-->
-                <div class="container">
-                    <div id="googleMap" class="columns col-md-6 mapa-barco"></div>
-                </div>
-            </div>
-        </section>
+                </section>
 
         <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -192,8 +223,7 @@
         <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
         <!--Fundation JS-->
         <script src="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.js"></script>
-    </body>
-
-</html>
-</xsl:template>
+            </body>
+        </html>
+    </xsl:template>
 </xsl:stylesheet>

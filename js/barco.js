@@ -8,3 +8,4 @@ function requestBarcoById(id) {
     document.location="procesadorById.php";
 }
 
+
