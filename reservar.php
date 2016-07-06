@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<? 
+?>
 <html lang="en">
 
 <head>
@@ -21,8 +22,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
 
+    <script src="js/barco.js"></script>
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script language="JavaScript">
+    function confirmar(){
+        alert("Reservado con éxito! ");
+        document.form.submit();
+    }
+    </script>
     <script type="text/javascript">
         $(function() {
             $("#datepicker").datepicker();
@@ -50,25 +58,44 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">HOME</a></li>
-                    <li><a>ALQUILAR</a></li>
-                    <li><a href="#contact">GALERIA</a></li>
+                    <li><a onclick="requestBarco()" style="cursor: pointer;">ALQUILAR</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <section class="bg-primary alquilar" id="about">
-        <form class="form-horizontal" action="crearReserva.php" method="post">
+        <form class="form-horizontal" action="crearReserva.php" method="POST" name="form">
             <div class="form-group">
                 <label class="label-apartado col-sm-offset-1">Datos del barco</label>
             </div>
             <div class="form-group">
                 <label class="col-sm-4 control-label">Barco</label>
                 <div class="col-sm-5">
-                    <select class="form-control" name="perfil">
-                        <option value="barco1">Barco 1</option>
-                        <option value="barco2">Barco 2</option>
-                    </select>
+                    <input class="form-control" name="id" placeholder="
+                            <?
+                                $selected = $_GET["id"];
+
+                                $doc = new DOMDocument;
+                                $doc->load('xml/barcos.xml');
+                                $xpath = new DOMXPath($doc);
+                                $name = $xpath->query("/barcos/barco[@id=$selected]/nom");
+                                $node = $name[0]->nodeValue;
+                                echo "$node"
+
+                            ?>" 
+                            value="<?
+                                $selected = $_GET["id"];
+
+                                $doc = new DOMDocument;
+                                $doc->load('xml/barcos.xml');
+                                $xpath = new DOMXPath($doc);
+                                $name = $xpath->query("/barcos/barco[@id=$selected]/nom");
+                                $node = $name[0]->nodeValue;
+                                echo "$node"
+
+                            ?>" readonly>
+                    </input>
                 </div>
             </div>
 
@@ -130,7 +157,7 @@
 
             <div class="form-group">
                 <div class="col-sm-offset-4 col-sm-5">
-                    <button type="submit" class="form-control btn btn-default btn-reserva">Reservar</button>
+                    <button onclick="confirmar()" class="form-control btn btn-default btn-reserva">Reservar</button>
                 </div>
             </div>
         </form>

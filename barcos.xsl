@@ -61,177 +61,179 @@
                         marker.setMap(map);
                     }
                 </script>
-                <script async="True" defer="True" src="http://maps.googleapis.com/maps/api/js?key= AIzaSyDH5kZtB74OaDD9HvAB0TkwZZsFrIMY6TA&amp;callback=initialize"></script>
+                <script async="True" defer="True" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDH5kZtB74OaDD9HvAB0TkwZZsFrIMY6TA&amp;callback=initialize"></script>
                 
-
-        </head>
-            <body> 
-                <nav class="navbar navbar-inverse navbar-fixed-top">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a href="index.html" class="navbar-brand">
-                                <img src="img/barco.png"/>
-                            </a>
-                        </div>
-                        <div id="navbar" class="collapse navbar-collapse">
-                            <ul class="nav navbar-nav">
-                                <li>
-                                    <a href="index.html">HOME</a>
-                                </li>
-                                <li>
-                                    <a onclick="requestBarco()">ALQUILAR</a>
-                                </li>
-                                <li>
-                                    <a href="#galeria">GALERIA</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-
-                <section class="bg-primary alquilar" id="about">
-                    <div class="container">
-                        <div class="row">
-                            <h1 class="nombre_barco">
-                                <xsl:value-of select="nom"/>
-                            </h1> 
-                            <div class="row featurette"> 
-                                <div class="col-md-7"> 
-                                    <h2 class="featurette-heading">Descripción</h2>
-                                        <p class="lead">
-                                            <xsl:value-of select="descripcio"/>
-                                        </p>
-                                </div>
-                                <div class="col-md-5">
-                                    <h2 class="featurette-heading">Especificaciones</h2>
-                                    <table class="table table-hover tabla">
-                                        <tbody>
-                                            <tr>
-                                                <td>Longitud</td>
-                                                <td><xsl:value-of select="especificacions/metros/eslora"/></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Anchura</td>
-                                                <td><xsl:value-of select="especificacions/metros/maniga"/></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Calado</td>
-                                                <td><xsl:value-of select="especificacions/metros/eslora"/></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Pasajeros</td>
-                                                <td><xsl:value-of select="especificacions/numPassatgers"/></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tripulación</td>
-                                                <td><xsl:value-of select="especificacions/tripulacio"/></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Velocidad crucero</td>
-                                                <td><xsl:value-of select="especificacions/velocitat/creuer"/></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Velocidad máxima</td>
-                                                <td><xsl:value-of select="especificacions/velocitat/maxima"/></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Capacidad fuel</td>
-                                                <td><xsl:value-of select="especificacions/motor"/></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Puerto</td>
-                                                <td><xsl:value-of select="port"/></td>
-                                            </tr>
-                                            <tr>
-                                            <td>Precio</td>
-                                                <td><xsl:value-of select="preu"/></td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
-                                </div>
+            </head>
+                <body> 
+                    <nav class="navbar navbar-inverse navbar-fixed-top">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a href="index.html" class="navbar-brand">
+                                    <img src="img/barco.png"/>
+                                </a>
                             </div>
-                            <hr class="featurette-divider"/>
-                            <div class="col-md-offset-3 col-md-6">
-                                <br/>
-                                <a class="btn btn-lg btn-default btn-block" href="reservar.html" role="button">Reservar barco</a>
-                                <br/>
-                                <br/>
+                            <div id="navbar" class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <a href="index.html">HOME</a>
+                                    </li>
+                                    <li>
+                                        <a onclick="requestBarco()" style="cursor: pointer;">ALQUILAR</a>
+                                    </li>
+                                </ul>
                             </div>
+                        </div>
+                    </nav>
 
-                            <div class="col-lg-offset-1 col-lg-10">
-                                <div id="principal">
-                                    <div id="visor">
-                                        <img class="image-responsive" name='fotoVisor'>
+                    <section class="bg-primary alquilar" id="about">
+                        <div class="container">
+                            <div class="row">
+                                <h1 class="nombre_barco">
+                                    <xsl:value-of select="nom"/>
+                                </h1> 
+                                <div class="row featurette"> 
+                                    <div class="col-md-7"> 
+                                        <h2 class="featurette-heading">Descripción</h2>
+                                            <p class="lead">
+                                                <xsl:value-of select="descripcio"/>
+                                            </p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h2 class="featurette-heading">Especificaciones</h2>
+                                        <table class="table table-hover tabla">
+                                            <tbody>
+                                                <tr>
+                                                    <td>Longitud</td>
+                                                    <td><xsl:value-of select="especificacions/metros/eslora"/></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Anchura</td>
+                                                    <td><xsl:value-of select="especificacions/metros/maniga"/></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Calado</td>
+                                                    <td><xsl:value-of select="especificacions/metros/eslora"/></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Pasajeros</td>
+                                                    <td><xsl:value-of select="especificacions/numPassatgers"/></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tripulación</td>
+                                                    <td><xsl:value-of select="especificacions/tripulacio"/></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Velocidad crucero</td>
+                                                    <td><xsl:value-of select="especificacions/velocitat/creuer"/></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Velocidad máxima</td>
+                                                    <td><xsl:value-of select="especificacions/velocitat/maxima"/></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Capacidad fuel</td>
+                                                    <td><xsl:value-of select="especificacions/motor"/></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Puerto</td>
+                                                    <td><xsl:value-of select="port"/></td>
+                                                </tr>
+                                                <tr>
+                                                <td>Precio</td>
+                                                    <td><xsl:value-of select="preu"/></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <hr class="featurette-divider"/>
+                                <div class="col-md-offset-3 col-md-6">
+                                    <br/>
+                                    <form action="reservar.php" class="form-inline filtrado" accept-charset="utf-8" autocomplete="off" role="form" method="GET">
+                                        <button type="submit" name="id" class="btn btn-lg btn-default btn-block">
+                                            <xsl:attribute name="value">
+                                                <xsl:value-of select="@id"></xsl:value-of>
+                                            </xsl:attribute>
+                                                Reservar barco
+                                        </button>
+                                    </form>
+                                    <br/>
+                                    <br/>
+                                </div>
+
+                                <div class="col-lg-offset-1 col-lg-10">
+                                    <div id="principal">
+                                        <div id="visor">
+                                            <img class="image-responsive" name='fotoVisor'>
+                                                <xsl:attribute name="src">
+                                                    <xsl:value-of select="fotos/foto[@id = 1]"/>
+                                                </xsl:attribute>
+                                            </img>
+                                        </div>
+                                    </div>
+                                    <div id="menu" style="text-align:center;">
+                                        <xsl:attribute name="name">
+                                            <xsl:value-of select="nomCurt"/>
+                                        </xsl:attribute>
+                                        <img class="image-responsive" name='fotos1' onclick="mifoto(1)">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="fotos/foto[@id = 1]"/>
                                             </xsl:attribute>
                                         </img>
+                                        <img class="image-responsive" name='fotos2' onclick="mifoto(2)">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="fotos/foto[@id = 2]"/>
+                                            </xsl:attribute>
+                                        </img>
+                                        <img class="image-responsive" name='fotos3' onclick="mifoto(3)">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="fotos/foto[@id = 3]"/>
+                                            </xsl:attribute>
+                                        </img>
+                                        <img class="image-responsive" name='fotos4' onclick="mifoto(4)">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="fotos/foto[@id = 4]"/>
+                                            </xsl:attribute>
+                                        </img>
+                                        <img class="image-responsive" name='fotos5' onclick="mifoto(5)">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="fotos/foto[@id = 5]"/>
+                                            </xsl:attribute>
+                                        </img>
+                                        <img class="image-responsive" name='fotos6' onclick="mifoto(6)">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="fotos/foto[@id = 6]"/>
+                                            </xsl:attribute>
+                                        </img>
+                                        <img class="image-responsive" name='fotos7' onclick="mifoto(7)">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="fotos/foto[@id = 7]"/>
+                                            </xsl:attribute>
+                                        </img>
+                                        <img class="image-responsive" name='fotos8' onclick="mifoto(8)">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="fotos/foto[@id = 8]"/>
+                                            </xsl:attribute>
+                                        </img>
+                                        <img class="image-responsive" name='fotos9' onclick="mifoto(9)">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="fotos/foto[@id = 9]"/>
+                                            </xsl:attribute>
+                                        </img>
                                     </div>
                                 </div>
-                                <div id="menu" style="text-align:center;">
-                                    <xsl:attribute name="name">
-                                        <xsl:value-of select="nomCurt"/>
-                                    </xsl:attribute>
-                                    <img class="image-responsive" name='fotos1' onclick="mifoto(1)">
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="fotos/foto[@id = 1]"/>
-                                        </xsl:attribute>
-                                    </img>
-                                    <img class="image-responsive" name='fotos2' onclick="mifoto(2)">
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="fotos/foto[@id = 2]"/>
-                                        </xsl:attribute>
-                                    </img>
-                                    <img class="image-responsive" name='fotos3' onclick="mifoto(3)">
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="fotos/foto[@id = 3]"/>
-                                        </xsl:attribute>
-                                    </img>
-                                    <img class="image-responsive" name='fotos4' onclick="mifoto(4)">
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="fotos/foto[@id = 4]"/>
-                                        </xsl:attribute>
-                                    </img>
-                                    <img class="image-responsive" name='fotos5' onclick="mifoto(5)">
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="fotos/foto[@id = 5]"/>
-                                        </xsl:attribute>
-                                    </img>
-                                    <img class="image-responsive" name='fotos6' onclick="mifoto(6)">
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="fotos/foto[@id = 6]"/>
-                                        </xsl:attribute>
-                                    </img>
-                                    <img class="image-responsive" name='fotos7' onclick="mifoto(7)">
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="fotos/foto[@id = 7]"/>
-                                        </xsl:attribute>
-                                    </img>
-                                    <img class="image-responsive" name='fotos8' onclick="mifoto(8)">
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="fotos/foto[@id = 8]"/>
-                                        </xsl:attribute>
-                                    </img>
-                                    <img class="image-responsive" name='fotos9' onclick="mifoto(9)">
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="fotos/foto[@id = 9]"/>
-                                        </xsl:attribute>
-                                    </img>
-                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="googleMap" class="columns col-md-6 mapa-barco"></div>
                             </div>
                         </div>
-                        <div class="container">
-                            <div id="googleMap" class="columns col-md-6 mapa-barco"></div>
-                        </div>
-                    </div>
-                </section>
+                    </section>
 
         <!-- Bootstrap core JavaScript
     ================================================== -->

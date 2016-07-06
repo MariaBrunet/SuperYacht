@@ -70,10 +70,7 @@
                                     <a href="index.html">HOME</a>
                                 </li>
                                 <li class="active">
-                                    <a onclick="requestBarco()">ALQUILAR</a>
-                                </li>
-                                <li>
-                                    <a href="#contact">GALERIA</a>
+                                    <a onclick="requestBarco()" style="cursor: pointer;">ALQUILAR</a>
                                 </li>
                             </ul>
                         </div>

@@ -1,7 +1,8 @@
 <?
+     
 
     //agafam dades de html
-    $idBarco = 1;
+    $idBarco = $_POST['id'];
     $nom = $_POST['nom'];
     $llinatge1 = $_POST['llinatge1'];
     $llinatge2 = $_POST['llinatge2'];
@@ -30,5 +31,6 @@
 
     //guardam nova reserva
     $xml->asXML("xml/reserves.xml");
-
+    header('Location: index.html');
+    echo '<script language="javascript">alert("Reserva creada con éxito");</script>';
 ?>
