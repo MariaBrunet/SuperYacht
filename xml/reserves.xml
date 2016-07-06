@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reserves SYSTEM "reserves.dtd">
+<reserves>
+    <reserva id="ID">
+        <idBarco>1</idBarco>
+        <persona>
+            <nom>Maria</nom>
+            <llinatge1>Brunet</llinatge1>
+            <llinatge2>Vallcaneras</llinatge2>
+            <dni>12345678</dni>
+            <telf>660937882</telf>
+            <direccio>c/ Manacor nº 25</direccio>
+        </persona>
+        <data>
+            <entrada>07/13/2016</entrada>
+            <sortida>21/13/2016</sortida>
+        </data>
+    </reserva>
+<reserva><idBarco>1</idBarco><persona><nom>a</nom><llinatge1>b</llinatge1><llinatge2>c</llinatge2><dni>d</dni><telf>e</telf><direccio>f</direccio></persona><data><entrada>07/20/2016</entrada><sortida>07/28/2016</sortida></data></reserva></reserves>

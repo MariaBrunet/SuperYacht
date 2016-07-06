@@ -1,0 +1,14 @@
+<!ELEMENT reserves (reserva*)>
+    <!ELEMENT reserva (idBarco, persona, data)>
+    <!ATTLIST reserva id ID #REQUIRED>
+        <!ELEMENT idBarco (#PCDATA)>
+        <!ELEMENT persona (nom, llinatge1, llinatge2, dni, telf, direccio)>
+            <!ELEMENT nom (#PCDATA)>
+            <!ELEMENT llinatge1 (#PCDATA)>
+            <!ELEMENT llinatge2 (#PCDATA)>
+            <!ELEMENT dni (#PCDATA)>
+            <!ELEMENT telf (#PCDATA)>
+            <!ELEMENT direccio (#PCDATA)>
+        <!ELEMENT data (entrada, sortida)>
+            <!ELEMENT entrada (#PCDATA)>
+            <!ELEMENT sortida (#PCDATA)>

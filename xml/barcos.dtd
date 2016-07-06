@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT barcos (barco*)>
+    <!ELEMENT barco (nom, any, port, especificacions, preu, extres?, descripcio?, resum?, fotos)>
+    <!ATTLIST barco id ID #REQUIRED>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT any (#PCDATA)>
+        <!ELEMENT port (#PCDATA)>
+        <!ELEMENT especificacions (constructor, metros, motor, velocitat, numPassatgers, numCamarots, tripulacio)>
+            <!ELEMENT constructor (#PCDATA)>
+            <!ELEMENT metros (eslora, maniga, calat)>
+                <!ELEMENT eslora (#PCDATA)>
+                <!ELEMENT maniga (#PCDATA)>
+                <!ELEMENT calat (#PCDATA)>
+            <!ELEMENT motor (#PCDATA)>
+            <!ELEMENT velocitat (creuer, maxima)>
+                <!ELEMENT creuer (#PCDATA)>
+                <!ELEMENT maxima (#PCDATA)>
+            <!ELEMENT numPassatgers (#PCDATA)>
+            <!ELEMENT numCamarots (#PCDATA)>
+            <!ELEMENT tripulacio (#PCDATA)>
+        <!ELEMENT preu (estiu, resta)>
+            <!ELEMENT estiu (#PCDATA)>
+            <!ELEMENT resta (#PCDATA)>
+        <!ELEMENT extres (#PCDATA)>
+        <!ELEMENT descripcio (#PCDATA)>
+        <!ELEMENT resum (#PCDATA)>
+        <!ELEMENT fotos (foto*)>
+            <!ELEMENT foto (#PCDATA)>
