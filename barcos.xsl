@@ -31,12 +31,26 @@
                 <!-- script visor -->
                 <script src="js/barco.js"></script>
                 <script src="js/visor.js"></script>
-                <script src="http://maps.googleapis.com/maps/api/js"></script>
-                <script>
-                    var myCenter = new google.maps.LatLng(38.977695, 1.299599);
-                    var marker;
-
+                <script id="mapa">
+                    <xsl:attribute name="class">
+                        <xsl:value-of select="port"></xsl:value-of>
+                    </xsl:attribute>
                     function initialize() {
+                        var x,y;
+                        var port = document.getElementById("mapa").getAttribute("class");
+                        if(port == "Eivissa"){
+                            x = 38.977695;
+                            y = 1.299599;
+                        } else if (port == "Menorca") {
+                            x = 39.9885838;
+                            y = 3.8285342;
+
+                        } else if (port == "Mallorca"){
+                            x = 39.4902406;
+                            y = 2.4768167;                          
+                        }
+                        var myCenter = new google.maps.LatLng(x, y);
+                        var marker;
                         var mapProp = {
                             center: myCenter,
                             zoom: 15,
@@ -46,10 +60,11 @@
                         var marker = new google.maps.Marker({position: myCenter, animation: google.maps.Animation.BOUNCE});
                         marker.setMap(map);
                     }
-                    google.maps.event.addDomListener(window, 'load', initialize);
                 </script>
-            </head>
+                <script async="True" defer="True" src="http://maps.googleapis.com/maps/api/js?key= AIzaSyDH5kZtB74OaDD9HvAB0TkwZZsFrIMY6TA&amp;callback=initialize"></script>
+                
 
+        </head>
             <body> 
                 <nav class="navbar navbar-inverse navbar-fixed-top">
                     <div class="container">
@@ -131,8 +146,13 @@
                                             </tr>
                                             <tr>
                                                 <td>Puerto</td>
+                                                <td><xsl:value-of select="port"/></td>
+                                            </tr>
+                                            <tr>
+                                            <td>Precio</td>
                                                 <td><xsl:value-of select="preu"/></td>
                                             </tr>
+
                                         </tbody>
                                     </table>
                                 </div>
