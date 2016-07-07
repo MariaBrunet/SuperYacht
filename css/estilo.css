@@ -110,7 +110,7 @@ h3>a:hover{
 }
 
 .portfolio-item{
-  margin-bottom: 5%;
+  padding-bottom:60px;
 }
 
 div>.panel-body{
@@ -118,7 +118,16 @@ div>.panel-body{
   border-radius: 10px;
   margin-right: 50px;
   margin-left: 50px;
+  margin-bottom: 50px;
 }
+
+.button-barco{
+    background-color: #337ab7;
+    border-color: #337ab7;
+    border-radius: 20px;
+    width: 100%;
+}
+
 
 .img-alquilar{
     border-radius: 20px;

@@ -3,21 +3,7 @@
 <xsl:stylesheet
   version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  
 
-<!--
-    He llevat tot aixo pk fa que no funcioni es datePicker
-
-
-  adalt:
-  xmlns="http://www.w3.org/1999/xhtml"
-
-  <xsl:output
-  method="xml"
-  indent="yes"
-  doctype-public="-//W3C//DTD XHTML Basic 1.1//EN"
-  doctype-system="http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd"/>
--->
     <xsl:template match="/">
         <html>
             <head>
@@ -108,7 +94,7 @@
                         <form name="form1" action="procesaBarco.php" class="form-inline filtrado" accept-charset="utf-8" autocomplete="off" role="form" enctype="text/plain" method="GET">
                             <xsl:for-each select="barcos/barco">
                                 <div class="col-md-4 portfolio-item">
-                                        <button type="submit" name="idBarco">
+                                        <button class="button-barco" type="submit" name="idBarco">
                                             <xsl:attribute name="value">
                                                 <xsl:value-of select="@id"/>
                                             </xsl:attribute>
